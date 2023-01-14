@@ -20,11 +20,16 @@ a {
 .logo-header {
   display: flex;
   color: #ffffff;
-  font-size: 56px;
-  font-weight: 500;
-  line-height: 64.34px;
   align-items: flex-end;
   padding-left: 82px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.logo-header img {
+    padding-right: 11px;
 }
 
 .logo-header p {
@@ -32,6 +37,10 @@ a {
 }
 
 nav ul {
-    display: flex;
-    padding: 47px 103px 47px 0;
+  display: flex;
+  padding: 47px 103px 47px 0;
+}
+
+.link-blog {
+    padding: 0 37px 0 42px;
 }
