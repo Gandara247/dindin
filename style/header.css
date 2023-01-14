@@ -2,13 +2,10 @@ header {
   background-color: #2e948a;
   display: flex;
   justify-content: space-between;
-  position: absolute;
   width: 100%;
-  height: 117px;
-  left: 0px;
-  top: 0px;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
 }
 
 li {
@@ -21,6 +18,20 @@ a {
 }
 
 .logo-header {
+  display: flex;
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 64.34px;
+  align-items: flex-end;
+  padding-left: 82px;
+}
+
+.logo-header p {
+  margin-bottom: -7px;
+}
+
+nav ul {
     display: flex;
-    color: #FFFFFF;
+    padding: 47px 103px 47px 0;
 }
