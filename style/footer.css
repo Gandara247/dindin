@@ -1,0 +1,134 @@
+footer {
+  background-color: #419488;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  color: #fdfdfd;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-footer {
+  display: flex;
+  color: #ffffff;
+  align-items: flex-end;
+  padding: 52px 0;
+  padding-left: 8.89vw;
+  font-style: normal;
+}
+
+.logo-footer img {
+  padding-right: 15.43px;
+  width: 101px;
+}
+
+.texto-logo {
+  font-weight: 500;
+  font-size: 66px;
+  line-height: 76px;
+}
+
+.slogan {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  margin: -6px 0 3px -14px;
+}
+
+.links-internos-footer ul {
+  padding: 51px 61px 71px 0;
+}
+
+.links-internos-footer li {
+  padding: 3px;
+}
+
+.links-internos-footer a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.links-trabalhe-conosco {
+  display: flex;
+  flex-direction: column;
+  padding-right: 9.51vw;
+}
+
+.links-trabalhe-conosco button {
+  margin: 6.5px;
+  padding: 14px 82px;
+  background-color: #419488;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 62px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo-footer {
+    padding-left: 7vw;
+  }
+
+  .logo-footer img {
+    padding-right: 11px;
+    width: 71px;
+  }
+
+  .texto-logo {
+    font-size: 46px;
+    line-height: 53px;
+  }
+
+  .slogan {
+    font-size: 14px;
+    line-height: 15px;
+    margin: -5px 0 3px -2px;
+  }
+
+  .links-internos-footer ul {
+    padding-right: 0;
+  }
+
+  .links-trabalhe-conosco {
+    padding-right: 7vw;
+  }
+
+  .links-trabalhe-conosco button {
+    padding: 14px 5.69vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .links-trabalhe-conosco button {
+    margin: 6.5px;
+    padding: 1vw 5.69vw;
+    font-size: 1rem;
+    line-height: 1.438rem;
+  }
+  .links-internos-footer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .texto-logo {
+        display: none;
+    }
+
+    .slogan {
+        display: none;
+    }
+}
