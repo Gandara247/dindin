@@ -21,7 +21,7 @@ a {
   display: flex;
   color: #ffffff;
   align-items: flex-end;
-  padding-left: 82px;
+  padding-left: 5.69vw;
   font-style: normal;
   font-weight: 500;
   font-size: 56px;
@@ -36,9 +36,13 @@ a {
   margin-bottom: -7px;
 }
 
+nav {
+  padding-right: 7.15vw;
+}
+
 nav ul {
   display: flex;
-  padding: 47px 103px 47px 0;
+  padding: 47px 0;
 }
 
 .link-blog {
