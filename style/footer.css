@@ -45,15 +45,35 @@ a {
 }
 
 .links-internos-footer ul {
-    padding: 0px;
+  padding: 51px 61px 71px 0;
 }
 
 .links-internos-footer li {
-    padding: 5px;
+  padding: 3px;
 }
 
 .links-internos-footer a {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
+}
+
+.links-trabalhe-conosco {
+  display: flex;
+  flex-direction: column;
+  padding-right: 9.51vw;
+}
+
+.links-trabalhe-conosco button {
+  margin: 6.5px;
+  padding: 14px 82px;
+  background-color: #419488;
+  border: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 62px;
 }
