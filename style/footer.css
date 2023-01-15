@@ -68,7 +68,6 @@ a {
   margin: 6.5px;
   padding: 14px 82px;
   background-color: #419488;
-  border: none;
   color: #ffffff;
   font-weight: 400;
   font-size: 20px;
@@ -92,7 +91,7 @@ a {
     font-size: 46px;
     line-height: 53px;
   }
-  
+
   .slogan {
     font-size: 14px;
     line-height: 15px;
@@ -113,6 +112,15 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .links-trabalhe-conosco button {
+    margin: 6.5px;
+    padding: 1vw 5.69vw;
+    font-size: 1rem;
+    line-height: 1.438rem;
+  }
+  .links-internos-footer {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 480px) {
