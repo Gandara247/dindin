@@ -1,0 +1,17 @@
+footer {
+    background-color: #419488;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    align-items: center;
+    color: #fdfdfd;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
