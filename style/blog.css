@@ -80,8 +80,40 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .blogintro {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .blogintro img {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .textoblogintro {
+    align-items: center;
+  }
 
+  .textoblogintro p {
+    max-width: 70vw;
+    margin-top: 3vw;
+    text-align: justify;
+  }
+  .textoblogintro h1 {
+    font-size: 36px;
+    line-height: 41px;
+    max-width: 70vw;
+    margin-top: 15px;
+  }
+  .artigospaginablog {
+    padding: 59px 50px 120px 50px;
+  }
+  .artigospaginablog article {
+    max-width: 60vw;
+    padding: 50px 50px;
+  }
 
+  .artigospaginablog img {
+    max-width: 60vw;
+  }
 }
 
 @media only screen and (max-width: 480px) {
