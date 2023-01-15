@@ -95,7 +95,6 @@ body {
   .textoblogintro p {
     max-width: 70vw;
     margin-top: 3vw;
-    text-align: justify;
   }
   .textoblogintro h1 {
     font-size: 36px;
@@ -117,4 +116,22 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
+  .blogintro {
+    margin: 30px 50px 50px 50px;
+    padding: 0;
+  }
+  .blogintro img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .artigospaginablog {
+    padding: 20px 50px 120px 50px;
+  }
+
+  .artigospaginablog article {
+    padding: 30px 60px;
+  }
+  .artigospaginablog h5 {
+    padding: 12px 0;
+  }
 }
