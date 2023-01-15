@@ -20,6 +20,7 @@ a {
   display: flex;
   color: #ffffff;
   align-items: flex-end;
+  padding: 52px 0;
   padding-left: 8.89vw;
   font-style: normal;
 }
@@ -41,6 +42,14 @@ a {
   line-height: 22px;
   text-align: center;
   margin: -6px 0 3px -14px;
+}
+
+.links-internos-footer ul {
+    padding: 0px;
+}
+
+.links-internos-footer li {
+    padding: 5px;
 }
 
 .links-internos-footer a {
