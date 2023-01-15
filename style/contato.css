@@ -1,0 +1,44 @@
+body {
+  background-color: #fff;
+}
+
+.contatocontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contatocontainer h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #ff4081;
+}
+
+.contatocontainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contatocontainer input {
+  color: #58555d;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.contatocontainer button {
+  background: #ff4081;
+  border-radius: 50px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
