@@ -15,3 +15,35 @@ footer {
   a {
     text-decoration: none;
   }
+
+  .logo-footer {
+    display: flex;
+    color: #ffffff;
+    align-items: flex-end;
+    padding-left: 8.89vw;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 64px;
+  }
+  
+  .logo-header img {
+    padding-right: 11px;
+  }
+  
+  .logo-header p {
+    margin-bottom: -7px;
+  }
+  
+  nav {
+    padding-right: 7.15vw;
+  }
+  
+  nav ul {
+    display: flex;
+    padding: 47px 0;
+  }
+  
+  .link-blog {
+    padding: 0 37px 0 42px;
+  }
