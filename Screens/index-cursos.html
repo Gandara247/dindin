@@ -12,8 +12,13 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800&family=Ubuntu:wght@300;400;500;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="../style/style-cursos.css" />
     <link rel="stylesheet" href="../style/header.css" />
+    <link rel="stylesheet" href="../style/slyle-cursos-modal.css" />
+
+    <script src="../script/index-cursos.js" defer></script>
+
     <title>dindin cursos</title>
   </head>
   <body>
@@ -52,7 +57,7 @@
             aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
             eos qui ratione voluptatem sequi nesciunt.
           </p>
-          <button>começar agora</button>
+          <button class="abrir-modal">começar agora</button>
         </div>
       </article>
       <hr />
@@ -72,7 +77,7 @@
             aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
             eos qui ratione voluptatem sequi nesciunt.
           </p>
-          <button>começar agora</button>
+          <button class="abrir-modal">começar agora</button>
         </div>
       </article>
       <hr />
@@ -92,9 +97,97 @@
             aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
             eos qui ratione voluptatem sequi nesciunt.
           </p>
-          <button>começar agora</button>
+          <button class="abrir-modal">começar agora</button>
         </div>
       </article>
+
+      <!-- Modais -->
+
+      <div class="fade hidden"></div>
+
+      <div class="modal hidden" id="modal-conteudo-curso0">
+        <button class="fechar-modal">X</button>
+        <div class="modal-img">
+          <img src="../assets/img/cara-no-cavalo 382x383.png" alt="" />
+          <div class="modal-texto">
+            <h2>Investimento para iniciantes</h2>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt.
+            </p>
+            <br />
+            <ol>
+              <li>1 - Aula introdutória</li>
+              <li>2 - História sobre investimento</li>
+              <li>3 - Por onde começar</li>
+            </ol>
+            <br />
+            <p>Professor: Jane Doe</p>
+
+            <button class="botao-aulas">Link para as aulas</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal hidden" id="modal-conteudo-curso1">
+        <button class="fechar-modal">X</button>
+        <div class="modal-img">
+          <img src="../assets/img/cara-no-cavalo 382x383.png" alt="" />
+          <div class="modal-texto">
+            <h2>Poupando e Rendendo</h2>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt.
+            </p>
+            <br />
+            <ol>
+              <li>1 - Aula introdutória</li>
+              <li>2 - História sobre investimento</li>
+              <li>3 - Por onde começar</li>
+            </ol>
+            <br />
+            <p>Professor: Jane Doe</p>
+
+            <button class="botao-aulas">Link para as aulas</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal hidden" id="modal-conteudo-curso2">
+        <button class="fechar-modal">X</button>
+        <div class="modal-img">
+          <img src="../assets/img/cara-no-cavalo 382x383.png" alt="" />
+          <div class="modal-texto">
+            <h2>Independência Financeira</h2>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt.
+            </p>
+            <br />
+            <ol>
+              <li>1 - Aula introdutória</li>
+              <li>2 - História sobre investimento</li>
+              <li>3 - Por onde começar</li>
+            </ol>
+            <br />
+            <p>Professor: Jane Doe</p>
+
+            <button class="botao-aulas">Link para as aulas</button>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
