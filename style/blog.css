@@ -1,8 +1,8 @@
 body {
-    font-family: "Ubuntu", sans-serif;
-    background-color: #fff;
-    font-style: normal;
-    color: #000;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #fff;
+  font-style: normal;
+  color: #000;
 }
 
 .blogintro {
@@ -12,9 +12,9 @@ body {
 }
 
 .textoblogintro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .textoblogintro h1 {
@@ -31,4 +31,38 @@ body {
   line-height: 23px;
   max-width: 460px;
   margin-top: 40px;
+}
+
+.artigospaginablog {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 59px 53px 120px 111px;
+}
+
+.artigospaginablog article {
+    max-width: 518px;
+    padding: 50px 60px;
+}
+
+.artigospaginablog img {
+  background-color: #c4c4c4;
+  width: 518px;
+  height: 259px;
+}
+
+.artigospaginablog h5 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 34px;
+  color: #ff4081;
+  padding: 19px 0;
+}
+
+.artigospaginablog p {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
 }
