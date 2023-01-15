@@ -44,8 +44,8 @@ body {
 }
 
 .artigospaginablog article {
-    max-width: 518px;
-    padding: 50px 60px;
+  max-width: 518px;
+  padding: 50px 60px;
 }
 
 .artigospaginablog img {
@@ -69,13 +69,24 @@ body {
 }
 
 @media only screen and (max-width: 1024px) {
+  .blogintro {
+    margin: 48px 5vw 89px 9vw;
+    padding: 0 2vw;
+  }
 
+  .textoblogintro p {
+    max-width: 32vw;
+    margin-top: 3vw;
   }
-  
-  @media only screen and (max-width: 768px) {
+  .textoblogintro h1 {
+    font-size: 36px;
+    line-height: 41px;
+    max-width: 35vw;
+  }
 
-  }
-  
-  @media only screen and (max-width: 480px) {
-     
-  }
+}
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
