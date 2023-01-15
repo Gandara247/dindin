@@ -29,10 +29,6 @@ a {
   width: 101px;
 }
 
-.texto-logo-slogan {
-  justify-content: center;
-}
-
 .texto-logo {
   font-weight: 500;
   font-size: 66px;
@@ -45,4 +41,10 @@ a {
   line-height: 22px;
   text-align: center;
   margin: -6px 0 3px -14px;
+}
+
+.links-internos-footer a {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
 }
