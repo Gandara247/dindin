@@ -21,7 +21,7 @@ a {
   display: flex;
   color: #ffffff;
   align-items: flex-end;
-  padding-left: 82px;
+  padding-left: 5.69vw;
   font-style: normal;
   font-weight: 500;
   font-size: 56px;
@@ -29,18 +29,48 @@ a {
 }
 
 .logo-header img {
-    padding-right: 11px;
+  padding-right: 11px;
 }
 
 .logo-header p {
   margin-bottom: -7px;
 }
 
+nav {
+  padding-right: 7.15vw;
+}
+
 nav ul {
   display: flex;
-  padding: 47px 103px 47px 0;
+  padding: 47px 0;
 }
 
 .link-blog {
-    padding: 0 37px 0 42px;
+  padding: 0 37px 0 42px;
+}
+
+@media only screen and (max-width: 768px) {
+  .link-blog {
+    padding: 0 2.57vw 0 2.92vw;
+  }
+  nav ul {
+    padding: 32px 0;
+  }
+  .logo-header img {
+    padding-right: 0.76vw;
+    max-width: 50px;
+  }
+  .logo-header {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .logo-header p {
+    margin-bottom: -5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo-header p {
+    display: none;
+  }
 }
