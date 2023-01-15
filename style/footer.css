@@ -77,3 +77,43 @@ a {
   border: 2px solid #ffffff;
   border-radius: 62px;
 }
+
+@media only screen and (max-width: 1024px) {
+  .logo-footer {
+    padding-left: 7vw;
+  }
+
+  .logo-footer img {
+    padding-right: 11px;
+    width: 71px;
+  }
+
+  .texto-logo {
+    font-size: 46px;
+    line-height: 53px;
+  }
+  
+  .slogan {
+    font-size: 14px;
+    line-height: 15px;
+    margin: -5px 0 3px -2px;
+  }
+
+  .links-internos-footer ul {
+    padding-right: 0;
+  }
+
+  .links-trabalhe-conosco {
+    padding-right: 7vw;
+  }
+
+  .links-trabalhe-conosco button {
+    padding: 14px 5.69vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
