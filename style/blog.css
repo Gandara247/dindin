@@ -48,12 +48,6 @@ body {
   padding: 50px 60px;
 }
 
-.artigospaginablog img {
-  background-color: #c4c4c4;
-  width: 518px;
-  height: 259px;
-}
-
 .artigospaginablog h5 {
   font-weight: 500;
   font-size: 30px;
@@ -83,9 +77,11 @@ body {
     line-height: 41px;
     max-width: 35vw;
   }
-
 }
+
 @media only screen and (max-width: 768px) {
+
+
 }
 
 @media only screen and (max-width: 480px) {
