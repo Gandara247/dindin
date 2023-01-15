@@ -64,5 +64,37 @@ h5{
 
 .chamada-cursos{
     display: flex;
-    /* margin-top: 2000px; */
+    justify-content: space-evenly;
+    position: relative;
+    margin: 8rem 0rem 8rem 0rem;
+    padding: 1rem;
+
+}
+
+.chamada-cursos div{
+    display: flex;
+    flex-direction: column;  
+}
+
+.chamada-cursos img{
+    align-items: center;
+    width: 288;
+    height: 270px;
+    
+}
+
+h4{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #FF4081;
+}
+
+.chamada-cursos p{
+    font-size: 18px;
+    font-weight: 300;
+    width: 19rem;
+    text-align: center;
+    margin: 0 auto;
 }
