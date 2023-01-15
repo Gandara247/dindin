@@ -8,7 +8,8 @@ body {
 .blogintro {
   display: flex;
   justify-content: space-evenly;
-  margin: 48px 20px 89px 20px;
+  margin: 48px 100px 89px 130px;
+  padding: 0 30px;
 }
 
 .textoblogintro {
@@ -30,7 +31,7 @@ body {
   font-size: 20px;
   line-height: 23px;
   max-width: 460px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .artigospaginablog {
@@ -66,3 +67,15 @@ body {
   font-size: 17px;
   line-height: 20px;
 }
+
+@media only screen and (max-width: 1024px) {
+
+  }
+  
+  @media only screen and (max-width: 768px) {
+
+  }
+  
+  @media only screen and (max-width: 480px) {
+     
+  }
