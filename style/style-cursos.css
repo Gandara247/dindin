@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Ubuntu";
 }
 
 h1 {
@@ -42,7 +43,6 @@ article p {
   padding-left: 53px;
   padding-top: 37px;
 }
-
 article button {
   width: 233px;
   height: 51px;
@@ -59,6 +59,8 @@ article button {
   color: #ffffff;
 
   border: none;
+
+  cursor: pointer;
 }
 
 hr {
