@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Ubuntu";
+  margin-top: 82px;
+  margin-left: 81px;
+  color: #ff4081;
+}
+
+h3 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  margin-left: 81px;
+}
+
+article {
+  display: flex;
+}
+
+article img {
+  margin-left: 112px;
+  margin-top: 95px;
+}
+
+article h2 {
+  padding-left: 53px;
+  padding-top: 116px;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  font-size: 35px;
+  color: #ff4081;
+}
+
+article p {
+  padding-left: 53px;
+  padding-top: 37px;
+}
+
+article button {
+  width: 233px;
+  height: 51px;
+
+  margin-top: 53px;
+  margin-left: 53px;
+
+  background: #419488;
+  border-radius: 62px;
+
+  font-family: "Ubuntu";
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+
+  border: none;
+}
+
+hr {
+  margin-top: 68px;
+  margin-left: 82px;
+  margin-right: 114px;
+
+  border: 2px solid #c4c4c4;
+}
