@@ -66,7 +66,7 @@ h5{
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    margin: 8rem 0rem 8rem 0rem;
+    margin: 10rem 0rem 8rem 0rem;
     padding: 1rem;
 
 }
@@ -86,7 +86,7 @@ h5{
 h4{
     font-size: 26px;
     font-weight: 700;
-    line-height: 28px;
+    line-height: 5rem;
     text-align: center;
     color: #FF4081;
 }
@@ -97,4 +97,30 @@ h4{
     width: 19rem;
     text-align: center;
     margin: 0 auto;
+}
+
+.chamada-cursos button{
+    color: #fff;
+    background-color: #FF4081;
+    border: none;
+    font-size: 20px;
+    width: 233px;
+    height: 40px;
+    border-radius: 62px;
+    margin: 0 auto;
+    margin-top: 2rem;  
+}
+
+
+#falam{
+    font-family: 'Nunito';
+    font-size: 37px;
+    font-weight: 700;
+    color: #009688;    
+}
+
+.depoimentos div{
+    display: flex;
+    max-width: 60%;
+    flex-wrap: ;
 }
