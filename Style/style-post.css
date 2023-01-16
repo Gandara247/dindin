@@ -59,11 +59,20 @@ h5{
     font-size: 26px;
 }
 
+.invite{
+    color: #FF4081;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+
 .chamada-cursos{
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    margin: 10rem 0rem 8rem 0rem;
+    margin: 5rem 0rem 8rem 0rem;
     padding: 1rem;
 
 }
