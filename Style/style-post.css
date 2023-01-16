@@ -59,6 +59,54 @@ h5{
     font-size: 26px;
 }
 
+.chamada-cursos{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin: 10rem 0rem 8rem 0rem;
+    padding: 1rem;
+
+}
+
+.chamada-cursos div{
+    display: flex;
+    flex-direction: column;  
+}
+
+.chamada-cursos img{
+    align-items: center;
+    width: 288;
+    height: 270px;
+    
+}
+
+h4{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 5rem;
+    text-align: center;
+    color: #FF4081;
+}
+
+.chamada-cursos p{
+    font-size: 18px;
+    font-weight: 300;
+    width: 19rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.chamada-cursos button{
+    color: #fff;
+    background-color: #FF4081;
+    border: none;
+    font-size: 20px;
+    width: 233px;
+    height: 40px;
+    border-radius: 62px;
+    margin: 0 auto;
+    margin-top: 2rem;  
+}
 
 
 
