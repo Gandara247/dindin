@@ -4,8 +4,13 @@ body {
 
 .contatocontainer {
   display: flex;
-  justify-content: space-around;
-  margin: 82px 0 99px;
+  justify-content: space-between;
+  margin: 82px 0 99px 0;
+  padding: 0 163px 0 139px;
+}
+
+.contatocontainer img {
+    height: 444px;
 }
 
 .contatocontainer h1 {
@@ -16,6 +21,7 @@ body {
   line-height: 46px;
   color: #ff4081;
   margin-bottom: 44px;
+  margin-top: 20px;
 }
 
 .contatocontainer form {
