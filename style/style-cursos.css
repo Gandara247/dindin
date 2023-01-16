@@ -4,36 +4,39 @@
   font-family: "Ubuntu";
 }
 
-h1 {
-  font-family: "Ubuntu";
+.cabecalho h1 {
   margin-top: 82px;
   margin-left: 81px;
   color: #ff4081;
 }
 
-h3 {
-  font-family: "Ubuntu";
-  font-style: normal;
+.cabecalho h3 {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
 
   margin-left: 81px;
 }
+.barra-responsiva {
+  display: none;
+}
 
 article {
   display: flex;
+  margin: 68px;
 }
 
 article img {
-  margin-left: 112px;
-  margin-top: 95px;
+  /* margin-left: 112px;
+  margin-top: 95px; */
+  width: 380px;
+  height: 380px;
 }
 
 article h2 {
   padding-left: 53px;
-  padding-top: 116px;
-  font-family: "Ubuntu";
+  /*padding-top: 116px; */
+
   font-weight: 700;
   font-size: 35px;
   color: #ff4081;
@@ -53,7 +56,6 @@ article button {
   background: #419488;
   border-radius: 62px;
 
-  font-family: "Ubuntu";
   font-weight: 400;
   font-size: 20px;
   color: #ffffff;
@@ -64,9 +66,67 @@ article button {
 }
 
 hr {
-  margin-top: 68px;
   margin-left: 82px;
   margin-right: 114px;
 
   border: 2px solid #c4c4c4;
+}
+@media only screen and (max-width: 820px) {
+  article img {
+    width: 240px;
+    height: 240px;
+  }
+  article {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cabecalho h1 {
+    margin: 2%;
+  }
+  .cabecalho h3 {
+    margin: 2%;
+  }
+  .barra-responsiva {
+    display: block;
+  }
+
+  hr {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  article img {
+    width: 70vw;
+    height: 35vh;
+    margin: 5%;
+  }
+  article h2 {
+    margin: 2%;
+    padding: 0;
+    text-align: center;
+    font-size: 35px;
+  }
+  article p {
+    margin: 2%;
+    padding: 0;
+    text-align: center;
+  }
+  article button {
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 0;
+  }
 }
