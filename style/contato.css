@@ -5,6 +5,7 @@ body {
 .contatocontainer {
   display: flex;
   justify-content: space-around;
+  margin: 82px 0 99px;
 }
 
 .contatocontainer h1 {
@@ -14,6 +15,7 @@ body {
   font-size: 40px;
   line-height: 46px;
   color: #ff4081;
+  margin-bottom: 44px;
 }
 
 .contatocontainer form {
@@ -28,6 +30,31 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  width: 493px;
+  height: 32px;
+  padding-left: 22px;
+}
+
+.contatocontainer textarea {
+    color: #58555d;
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 493px;
+    height: 32px;
+    padding-left: 22px;
+    padding-top: 20px;
+    height: 193px;
+  }
+
+#email {
+  margin: 15px 0 14px 0;
 }
 
 .contatocontainer button {
@@ -41,4 +68,7 @@ body {
   text-align: center;
   color: #ffffff;
   border: none;
+  margin-top: 15px;
+  height: 32px;
+  width: 22%;
 }
