@@ -5,6 +5,10 @@ body {
   color: #000;
 }
 
+.header-article {
+  margin-bottom: 0;
+}
+
 .blogintro {
   display: flex;
   justify-content: space-evenly;
