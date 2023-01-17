@@ -1,121 +1,207 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body{
-    width: 100%;   
-    font-size: 16px;
-    overflow-x: hidden;
-    font-family: 'Ubuntu';
+html,
+body {
+  width: 100%;
+  font-size: 16px;
+  overflow-x: hidden;
+  font-family: "Ubuntu";
 }
 
-h1{
-    font-size: 50px;
-    font-weight: 500;
-    color: #FF4081;
-    margin: 0 auto;
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #ff4081;
+  margin: 0 auto;
 }
 
-article  p{
+article p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 3rem;
+  margin: 0 auto;
+}
+
+article header {
+  display: flex;
+  flex-direction: column;
+}
+
+article .flyer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 3rem 0rem 3rem 0rem;
+}
+
+.flyer-finance {
+  width: 57vw;
+  height: 22vw;
+  object-fit: cover;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80rem;
+  padding: 0rem 5rem 0rem 5rem;
+  text-align: justify;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+h5 {
+  color: #419488;
+  font-size: 26px;
+}
+
+.invite {
+  color: #ff4081;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.chamada-cursos {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  margin: 5rem 0rem 8rem 0rem;
+  padding: 1rem;
+}
+
+.chamada-cursos div {
+  display: flex;
+  flex-direction: column;
+}
+
+.chamada-cursos img {
+  align-items: center;
+  width: 288;
+  height: 270px;
+}
+
+h4 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 5rem;
+  text-align: center;
+  color: #ff4081;
+}
+
+.chamada-cursos p {
+  font-size: 18px;
+  font-weight: 300;
+  width: 19rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.chamada-cursos button {
+  color: #fff;
+  background-color: #ff4081;
+  border: none;
+  font-size: 20px;
+  width: 233px;
+  height: 40px;
+  border-radius: 62px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.chamada-cursos hr {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  article header {
+    text-align: center;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .flyer-finance {
+    width: 90vh;
+    height: 264px;
+  }
+
+  .paragraphs {
+    text-align: justify;
     font-size: 18px;
-    font-weight: 300;
-    line-height: 3rem;
-    margin: 0 auto;
-}
-
-article header{
-    display: flex;
-    flex-direction: column;  
-}
-
-article .flyer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin: 3rem 0rem 3rem 0rem;
-} 
-
-.flyer-finance{ 
-    width: 57vw;
-    height: 22vw;
-    object-fit: cover;
-}
-
-.paragraphs{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 80rem;
-    padding: 0rem 5rem 0rem 5rem;
-    text-align: justify;  
-    font-size: 22px;
-    font-weight: 300;
-}
-
-h5{
-    color: #419488;
-    font-size: 26px;
-}
-
-.invite{
-    color: #FF4081;
-    font-size: 50px;
-    font-weight: 700;
+    width: 100vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .paragraphs p {
+    line-height: 120%;
+    text-align: left;
+  }
+  h5 {
+    font-size: 25px;
     text-align: center;
-    margin-top: 10rem;
-}
-
-
-.chamada-cursos{
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    margin: 5rem 0rem 8rem 0rem;
-    padding: 1rem;
-
-}
-
-.chamada-cursos div{
-    display: flex;
-    flex-direction: column;  
-}
-
-.chamada-cursos img{
-    align-items: center;
-    width: 288;
-    height: 270px;
-    
-}
-
-h4{
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 5rem;
-    text-align: center;
-    color: #FF4081;
-}
-
-.chamada-cursos p{
+  }
+  .invite {
+    font-size: 30px;
+  }
+  .chamada-cursos {
+    display: block;
+    margin-top: 20px;
+  }
+  .chamada-cursos img {
+    display: none;
+  }
+  .chamada-cursos h4 {
+    margin-bottom: 5px;
     font-size: 18px;
-    font-weight: 300;
-    width: 19rem;
-    text-align: center;
-    margin: 0 auto;
+    line-height: 100%;
+  }
+  .chamada-cursos div {
+    margin-bottom: 30px;
+  }
+  .chamada-cursos button {
+    margin-top: 10px;
+  }
+  .chamada-cursos hr {
+    border: 2px solid #c4c4c4;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+  }
 }
 
-.chamada-cursos button{
-    color: #fff;
-    background-color: #FF4081;
-    border: none;
-    font-size: 20px;
-    width: 233px;
-    height: 40px;
-    border-radius: 62px;
-    margin: 0 auto;
-    margin-top: 2rem;  
+@media only screen and (min-width: 481px) and (max-width: 820px) {
+  .paragraphs {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 85vw;
+  }
+  .paragraphs p {
+    line-height: 100%;
+  }
+  .chamada-cursos {
+    justify-content: space-around;
+    margin: 2%;
+    width: 768px;
+  }
+  .chamada-cursos img {
+    width: 200px;
+    height: 189px;
+  }
+  .chamada-cursos div {
+    width: 95vh;
+  }
+  .chamada-cursos h4 {
+    margin: 15px;
+    line-height: 100%;
+  }
+  .chamada-cursos p {
+    width: 20vh;
+    margin: 15px;
+  }
 }
-
-
-
