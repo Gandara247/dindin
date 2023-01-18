@@ -216,23 +216,6 @@ h4{
 }
 
 @media only screen and  (max-width: 480px){
-   
-   
-
-    body .header-article{
-
-        margin-bottom: 0px;
-        
-    }
-
-    .header-article .logo-header{
-        margin: 0 auto;
-    }
-
-    .logo-header img{
-        margin: 5px 0px 5px 0px;
-    }
-
     .um{
         display: flex;
         flex-direction: column;
