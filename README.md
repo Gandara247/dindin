@@ -3,7 +3,9 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 Primeiro desafio em equipe do Gama Academy, o site foi elaborado utilizando um Kanban Board, Git Flow e commits semânticos.
-# 📁 Funcionalidades
+# 📁 Objetivos de estudo
+- Git e Git Flow.
+- Boas práticas.
 - Páginas responsivas para computadores, tablets e smartphones.
 - Linkagem entre as páginas do projeto.
 - Modal na página de Cursos.
