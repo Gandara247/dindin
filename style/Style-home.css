@@ -320,13 +320,9 @@ h4{
 
 
 
-@media only screen and  (min-width: 481px) and (max-width: 768px){
-    header.header-article{
-        margin-bottom: 5rem;
-    } 
-    
-    .intro div div{
-        width: 360px;
+@media only screen and  (max-width: 481px) and (max-width: 768px){
+     .intro div div{
+        width: 300px;
         height: 390px;
     }
 
@@ -341,18 +337,11 @@ h4{
         font-size: 24px;
     }
 
-    .um{
-        display: flex;
-        justify-content: space-evenly;
-        position: relative;
-        margin: 0rem 0rem 2rem 0rem;
-        padding: 1rem;
-    }
-
   
 
     .um img{
-        width: 360px;
+
+        width: 280px;
         margin-top: 26px;
     }
 
@@ -364,14 +353,10 @@ h4{
         display: flex;
         flex-direction: column;        
         width: 40rem;       
-        margin: 2rem 0px 0px 4rem;
+        margin: 0px;
     }
 
-    .chamada-cursos img{
-        margin: 0 auto;
-        width: 430px;
-        height: 320px;
-    }  
+  
 
     .chamada-cursos div{
         margin-bottom: 20%;
@@ -379,20 +364,12 @@ h4{
   
 
     h4{
-        font-size: 28px;       
-        line-height: 3rem;
+        font-size: 26px;       
+        line-height: 2rem;
     } 
 
-    .chamada-cursos p{ 
-        font-size: 26px;
-        font-weight: 500;     
-        width: 430px;
-    }
-
-    .chamada-cursos button{
-        font-size: 28px;
-        width: 280px;
-        height: 60px;
+    .chamada-cursos p{      
+        width: 288px;
     }
 
     #falam{
@@ -414,11 +391,6 @@ h4{
     .dep .dep-ind{
         width: 280px;
     }
-
-    .dep-ind p{
-        font-weight: 500;
-    }
-
     .conteudo-extra{
         display: flex;
         flex-direction: column;
@@ -428,32 +400,20 @@ h4{
     .conteudo-extra div{
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
     }
     .conteudo-extra .mais{
         margin-bottom: 50px;
     }
 
     .conteudo-extra .prev{
-        width: 430px;
-        font-weight: 500;
+        width: 290px;
     }
 
     .conteudo-extra button{  
         margin-top: 0rem;  
-        width: 210px;
+        width: 200px;
         height: 40px;
-        font-size: 24px;
-    }
-
-    .conteudo-extra img{
-        width: 380px;
-    }
-
-    .title-card p{
-        font-size: 28px;
-        line-height: 3rem;
-        
+        font-size: 20px;
     }
     
     .conteudo-extra #button{
