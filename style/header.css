@@ -155,7 +155,6 @@ nav a {
 @media only screen and (max-width: 480px) {
   .header-article {
     display: flex;
-    /* justify-content: space-; */
     flex-direction: row-reverse;
     margin-bottom: 0px;
   }
@@ -186,13 +185,18 @@ nav a {
     margin-right: 40%;
   }
 
-  #menu a {
+  .header-article .logo-header p{
+    margin: 0rem 0rem; 
+  }
+
+
+  /* #menu a {
     font-weight: 500;
     font-size: 26px;
     padding: 1em 0;
     margin: 0 1rem;
     line-height: 2.5rem;
-  }
+  } */
 
   .header-article #btn-mobile {
     display: flex;
