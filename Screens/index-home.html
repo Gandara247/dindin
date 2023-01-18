@@ -22,12 +22,15 @@
     <header class="header-article">
         <div class="logo-header">
             <img src="/assets/img/logo-didin.png" alt="Logo dindin" />
-            <p>dindin</p>
+            <p>dindin</p>            
         </div>
-        <nav>
-            <ul>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"> 
+                <span id="hamburger"></span></button>
+            <ul id="menu" role="menu">
                 <li><a href="index-cursos.html">CURSOS</a></li>
-                <li class="link-blog"><a href="index-blog.html">BLOG</a></li>
+                <li><a href="index-blog.html">BLOG</a></li>
+                <!-- <li class="link-blog"><a href="index-blog.html">BLOG</a></li> -->
                 <li><a href="index-contato.html">CONTATO</a></li>
             </ul>
         </nav>
@@ -230,6 +233,7 @@
           <button>central de ajuda</button>
         </div>
       </footer>
+      <script src="/script/menu-mobile.js" ></script>
 </body>
 
 </html>

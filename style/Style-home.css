@@ -215,6 +215,132 @@ h4{
     margin-bottom: 10rem;    
 }
 
+@media only screen and  (max-width: 480px){
+    .um{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 1rem;
+    }
+    .intro div div{
+        width: 300px;
+        height: 390px;
+    }
+
+
+    .um h1{
+        width: 270px;
+        font-size: 52px;
+    }
+
+    .um h5{
+        width: 294px;
+        font-size: 24px;
+    }
+
+  
+
+    .um img{
+
+        width: 280px;
+        margin-top: 26px;
+    }
+
+    .chamada-cursos{
+        display: flex;
+        flex-direction: column;        
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    .chamada-cursos div{
+        margin-bottom: 20%;
+    }
+  
+
+    h4{
+        font-size: 26px;       
+        line-height: 2rem;
+    } 
+
+    .chamada-cursos p{      
+        width: 288px;
+    }
+
+    #falam{
+        width: 300px;
+        font-size: 37px;
+        font-weight: 700;
+        color: #009688;    
+    }
+
+    .depoimentos{
+        padding: 16px;    
+    }
+       
+    .dep{
+        width: 300px;
+        
+    }
+
+    .dep .dep-ind{
+        width: 280px;
+    }
+    .conteudo-extra{
+        display: flex;
+        flex-direction: column;
+        padding: 16px;    
+    }
+
+    .conteudo-extra div{
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo-extra .mais{
+        margin-bottom: 50px;
+    }
+
+    .conteudo-extra .prev{
+        width: 290px;
+    }
+
+    .conteudo-extra button{  
+        margin-top: 0rem;  
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    .conteudo-extra #button{
+        margin: 0 auto;
+        width: 200px;
+        justify-content: center;
+        margin-bottom: 0rem;    
+    }
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 
 
