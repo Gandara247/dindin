@@ -1,17 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body{
-    width: 100%;   
+html,
+body {
+    width: 100%;
     font-size: 16px;
     overflow-x: hidden;
     font-family: 'Ubuntu';
 }
 
-.um{
+.um {
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -19,14 +20,14 @@ html, body{
     padding: 1rem;
 }
 
-.intro div div{
+.intro div div {
     width: 500px;
     height: 513px;
 }
 
 
 
-h1{    
+h1 {
     font-weight: 700;
     color: #FF4081;
     font-size: 60px;
@@ -35,7 +36,7 @@ h1{
     height: 14rem;
 }
 
-h5{
+h5 {
     font-weight: 400;
     font-size: 26px;
     position: absolute;
@@ -44,7 +45,7 @@ h5{
     top: 16rem;
 }
 
-.intro button{
+.intro button {
     position: absolute;
     width: 268px;
     height: 51px;
@@ -53,16 +54,17 @@ h5{
     border-radius: 62px;
     font-weight: 400;
     font-size: 24px;
-    color: #FF4081;    
+    color: #FF4081;
+    cursor: pointer;
 }
 
-.intro img{
+.intro img {
     width: 503px;
 }
 
-    
 
-.chamada-cursos{
+
+.chamada-cursos {
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -71,19 +73,19 @@ h5{
 
 }
 
-.chamada-cursos div{
+.chamada-cursos div {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 }
 
-.chamada-cursos img{
+.chamada-cursos img {
     align-items: center;
     width: 288;
     height: 270px;
-    
+
 }
 
-h4{
+h4 {
     font-size: 26px;
     font-weight: 700;
     line-height: 5rem;
@@ -91,7 +93,7 @@ h4{
     color: #FF4081;
 }
 
-.chamada-cursos p{
+.chamada-cursos p {
     font-size: 18px;
     font-weight: 300;
     width: 19rem;
@@ -99,7 +101,7 @@ h4{
     margin: 0 auto;
 }
 
-.chamada-cursos button{
+.chamada-cursos button {
     color: #fff;
     background-color: #FF4081;
     border: none;
@@ -108,21 +110,25 @@ h4{
     height: 40px;
     border-radius: 62px;
     margin: 0 auto;
-    margin-top: 2rem;  
+    margin-top: 2rem;
+}
+
+.chamada-cursos a{
+    margin: 0 auto;
 }
 
 
-#falam{
+#falam {
     font-family: 'Nunito';
     font-size: 37px;
     font-weight: 700;
-    color: #009688;    
+    color: #009688;
 }
 
-.depoimentos div{
+.depoimentos div {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;       
+    flex-wrap: wrap;
 }
 
 .depoimentos .dep {
@@ -131,7 +137,7 @@ h4{
     /* width: 600px; */
 }
 
-.depoimentos .dep-ind{
+.depoimentos .dep-ind {
     font-size: 18px;
     font-weight: 300;
     display: flex;
@@ -140,326 +146,331 @@ h4{
     width: 340px;
     height: 95px;
     margin-left: 1rem;
-    text-align: left;     
+    text-align: left;
 }
 
-.depoimentos #name{
+.depoimentos #name {
     margin-top: 10px;
     font-weight: 400;
 }
 
-.depoimentos{
+.depoimentos {
     padding: 0rem 10rem 0rem 10rem;
 }
 
-.depoimentos img{
+.depoimentos img {
     padding: 5px;
     margin: 5px;
-    border:solid #FF4081 ;
+    border: solid #FF4081;
     border-radius: 80px;
 }
 
-.conteudo-extra #mais{
+.conteudo-extra #mais {
     margin: 5rem 0rem 3rem 0rem;
     font-family: 'Nunito';
     font-size: 37px;
     font-weight: 700;
-    color: #009688;    
+    color: #009688;
 }
 
-.conteudo-extra{       
-    padding: 0rem 10rem 0rem 10rem; 
+.conteudo-extra {
+    padding: 0rem 10rem 0rem 10rem;
 }
 
-.conteudo-extra div{
-    display: flex; 
-    justify-content: space-between;   
+.conteudo-extra div {
+    display: flex;
+    justify-content: space-between;
 }
 
-.conteudo-extra .mais{
+.conteudo-extra .mais {
     display: flex;
     flex-direction: column;
 }
 
-.conteudo-extra .title-card{
+.conteudo-extra .title-card {
     color: #009688;
     font-size: 26px;
     font-weight: 700;
     margin: 0 auto;
 }
 
-.conteudo-extra .prev{
+.conteudo-extra .prev {
     width: 300px;
     font-weight: 400;
     font-size: 20px;
     text-align: justify;
 }
 
-.conteudo-extra img{
-    margin: 0 auto;    
+.conteudo-extra img {
+    margin: 0 auto;
 }
 
-.conteudo-extra button{  
-    margin-top: 3rem;  
+.conteudo-extra button {
+    margin-top: 3rem;
     width: 268px;
     height: 51px;
     border: 2px solid #FF4081;
     border-radius: 62px;
     font-weight: 400;
     font-size: 24px;
-    color: #FF4081;        
+    color: #FF4081;
 }
 
-.conteudo-extra #button{
+.conteudo-extra #button {
     justify-content: center;
-    margin-bottom: 10rem;    
+    margin-bottom: 10rem;
 }
 
-@media only screen and  (max-width: 480px){
-    .um{
+@media only screen and (max-width: 480px) {
+
+
+    /* .intro{
+        display: flex;
+        margin-left: 5.5vw;
+        align-content: center;
+        margin: 0 auto;
+    } */
+    .um {
         display: flex;
         flex-direction: column;
         margin-top: 0px;
         margin-bottom: 1rem;
+        width: 100vw;
+
+
+
     }
-    .intro div div{
+
+    .intro div div {
         width: 300px;
         height: 390px;
     }
 
 
-    .um h1{
+    .um h1 {
         width: 270px;
         font-size: 52px;
     }
 
-    .um h5{
+    .um h5 {
         width: 294px;
         font-size: 24px;
     }
 
-  
-
-    .um img{
+    .um img {
 
         width: 280px;
         margin-top: 26px;
     }
 
-    .chamada-cursos{
+    .chamada-cursos {
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 1rem;
+        width: 100vw;
     }
 
-    .chamada-cursos div{
+    .chamada-cursos div {
         margin-bottom: 20%;
     }
-  
 
-    h4{
-        font-size: 26px;       
+
+    h4 {
+        font-size: 26px;
         line-height: 2rem;
-    } 
+    }
 
-    .chamada-cursos p{      
+    .chamada-cursos p {
         width: 288px;
     }
 
-    #falam{
+    #falam {
         width: 300px;
         font-size: 37px;
         font-weight: 700;
-        color: #009688;    
+        color: #009688;
     }
 
-    .depoimentos{
-        padding: 16px;    
+    .depoimentos {
+        padding: 16px;
     }
-       
-    .dep{
+
+    .dep {
         width: 300px;
-        
+
     }
 
-    .dep .dep-ind{
+    .dep .dep-ind {
         width: 280px;
     }
-    .conteudo-extra{
+
+    .conteudo-extra {
         display: flex;
         flex-direction: column;
-        padding: 16px;    
+        padding: 16px;
     }
 
-    .conteudo-extra div{
+    .conteudo-extra div {
         display: flex;
         flex-direction: column;
     }
-    .conteudo-extra .mais{
+
+    .conteudo-extra .mais {
         margin-bottom: 50px;
     }
 
-    .conteudo-extra .prev{
+    .conteudo-extra .prev {
         width: 290px;
+        margin: 0 auto;
     }
 
-    .conteudo-extra button{  
-        margin-top: 0rem;  
+    .conteudo-extra button {
+        margin-top: 0rem;
         width: 200px;
         height: 40px;
         font-size: 20px;
     }
-    
-    .conteudo-extra #button{
+
+    .conteudo-extra #button {
         margin: 0 auto;
         width: 200px;
         justify-content: center;
-        margin-bottom: 0rem;    
+        margin-bottom: 0rem;
     }
 }
 
 
 
 
-@media only screen and  (min-width: 481px) and (max-width: 768px){
-    header.header-article{
-        margin-bottom: 5rem;
-    } 
-    
-    .intro div div{
-        width: 360px;
+@media only screen and (min-width: 481px) and (max-width: 884px) {
+    .um {
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 1rem;
+        width: 100vw;
+
+
+
+    }
+
+    .intro div div {
+        width: 300px;
         height: 390px;
     }
 
 
-    .um h1{
+    .um h1 {
         width: 270px;
         font-size: 52px;
     }
 
-    .um h5{
+    .um h5 {
         width: 294px;
         font-size: 24px;
     }
 
-    .um{
-        display: flex;
-        justify-content: space-evenly;
-        position: relative;
-        margin: 0rem 0rem 2rem 0rem;
-        padding: 1rem;
-    }
+    .um img {
 
-  
-
-    .um img{
-        width: 360px;
+        width: 350px;
         margin-top: 26px;
     }
 
-    main{
-        margin: 0px;
-    }
-
-    .chamada-cursos{
+    .chamada-cursos {
         display: flex;
-        flex-direction: column;        
-        width: 40rem;       
-        margin: 2rem 0px 0px 4rem;
+        flex-direction: column;
+        margin-top: 10vh;
+        margin-bottom: 1rem;
+        width: 100vw;
     }
 
-    .chamada-cursos img{
-        margin: 0 auto;
-        width: 430px;
-        height: 320px;
-    }  
-
-    .chamada-cursos div{
+    .chamada-cursos div {
         margin-bottom: 20%;
     }
-  
 
-    h4{
-        font-size: 28px;       
-        line-height: 3rem;
-    } 
+    .chamada-cursos img {
+        width: 460px;
+        height: 380px;
+        margin: 0 auto;
+    }
 
-    .chamada-cursos p{ 
-        font-size: 26px;
-        font-weight: 500;     
+
+    h4 {
+        font-size: 32px;
+        line-height: 4rem;
+    }
+
+    .chamada-cursos p {
+        width: 420px;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    #falam {
+        width: 480px;
+        font-size: 37px;
+        font-weight: 700;
+        color: #009688;
+    }
+
+    .depoimentos {
+        padding: 20px;
+        font-weight: 400;
+    }
+
+    .dep {
+        width: 300px;
+
+    }
+
+    .dep .dep-ind {
+        width: 280px;
+    }
+
+    .conteudo-extra {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    .conteudo-extra div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteudo-extra img {
         width: 430px;
     }
 
-    .chamada-cursos button{
-        font-size: 28px;
-        width: 280px;
-        height: 60px;
+    .conteudo-extra .title-card {
+        font-size: 32px;
+        line-height: 4rem;
     }
 
-    #falam{
-        width: 300px;
-        font-size: 37px;
-        font-weight: 700;
-        color: #009688;    
-    }
-
-    .depoimentos{
-        padding: 16px;    
-    }
-       
-    .dep{
-        width: 300px;
-        
-    }
-
-    .dep .dep-ind{
-        width: 280px;
-    }
-
-    .dep-ind p{
-        font-weight: 500;
-    }
-
-    .conteudo-extra{
-        display: flex;
-        flex-direction: column;
-        padding: 16px;    
-    }
-
-    .conteudo-extra div{
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    .conteudo-extra .mais{
+    .conteudo-extra .mais {
         margin-bottom: 50px;
     }
 
-    .conteudo-extra .prev{
-        width: 430px;
-        font-weight: 500;
-    }
-
-    .conteudo-extra button{  
-        margin-top: 0rem;  
-        width: 210px;
-        height: 40px;
+    .conteudo-extra .prev {
+        width: 420px;
         font-size: 24px;
+        font-weight: 400;
+        margin: 0 auto;
     }
 
-    .conteudo-extra img{
-        width: 380px;
+    .conteudo-extra button {
+        margin-top: 0rem;
+        width: 200px;
+        height: 40px;
+        font-size: 20px;
     }
 
-    .title-card p{
-        font-size: 28px;
-        line-height: 3rem;
-        
-    }
-    
-    .conteudo-extra #button{
+    .conteudo-extra #button {
         margin: 0 auto;
         width: 200px;
         justify-content: center;
-        margin-bottom: 0rem;    
+        margin-bottom: 0rem;
     }
+
+
 }
