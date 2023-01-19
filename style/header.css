@@ -139,6 +139,7 @@ nav a {
   .logo-header {
     font-size: 40px;
     line-height: 44px;
+    
   }
 
   .logo-header p {
@@ -149,17 +150,18 @@ nav a {
 @media only screen and (max-width: 480px) {
   .header-article {
     display: flex;
-    /* justify-content: space-; */
+    justify-content: start;
     flex-direction: row-reverse;
     margin-bottom: 0px;
   }
 
   .header-article .logo-header {
     align-items: center;
+    
 
-    margin: 10px 100px 10px 10px;
+    margin: 10px 10px 10px 10px;
     padding: 0px;
-  }
+  }  
 
   .logo-header img {
     margin: 5px 0px 5px 0px;
