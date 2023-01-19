@@ -40,7 +40,7 @@ a {
 }
 
 .logo-header p {
-  margin-bottom: -7px;
+  margin-bottom: 3px;
 }
 
 nav {
@@ -148,7 +148,7 @@ nav a {
   }
 
   .logo-header p {
-    margin-bottom: -5px;
+    margin-bottom: 2px;
   }
 }
 
@@ -177,6 +177,9 @@ nav a {
     font-size: 60px;
   }
 
+  .logo-header p {
+    margin-bottom: -7px;
+  }
 
   #menu {
     display: block;
@@ -202,7 +205,7 @@ nav a {
   #menu a {
     font-weight: 500;
     font-size: 26px;
-    padding: 1em 0;
+    padding: 10px 0;
     margin: 0 1rem;
     line-height: 2.5rem;
   } */
@@ -255,4 +258,5 @@ nav a {
     height: 40vh;
     visibility: visible;
   }
+
 }
