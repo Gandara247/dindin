@@ -50,6 +50,7 @@ body {
 .artigospaginablog article {
   max-width: 518px;
   padding: 50px 4.2vw;
+  object-fit: cover;
 }
 
 .artigospaginablog h5 {
