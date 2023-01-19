@@ -67,7 +67,8 @@ a {
 
 .links-trabalhe-conosco button {
   margin: 6.5px;
-  padding: 14px 82px;
+  padding: 14px 80px;
+  width: 100%;
   background-color: #419488;
   color: #ffffff;
   font-weight: 400;
