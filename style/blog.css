@@ -44,12 +44,12 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 59px 53px 120px 111px;
+  padding: 4vw 4vw 8vw 4vw;
 }
 
 .artigospaginablog article {
   max-width: 518px;
-  padding: 50px 60px;
+  padding: 50px 4.2vw;
 }
 
 .artigospaginablog h5 {
