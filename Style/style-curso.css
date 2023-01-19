@@ -25,8 +25,8 @@
   line-height: 23px;
   display: flex;
   align-items: center;
-
   color: #000000;
+  width: 750px;
 }
 
 .cabecalho img {
@@ -56,13 +56,16 @@ article p {
   margin-left: 76px;
   font-weight: 300;
   font-size: 20px;
+  width: 800px;
 
   color: #000000;
 }
 
-article video {
+article iframe {
   width: 462px;
   height: 261px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 8px 0.5px rgba(0, 0, 0, 0.16);
 }
 
 hr {
