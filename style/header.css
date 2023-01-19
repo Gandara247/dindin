@@ -128,7 +128,7 @@ nav a {
     opacity: 1;
   } */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   nav a {
     padding: 10px 1vw;
   }
@@ -153,22 +153,30 @@ nav a {
 }
 
 @media only screen and (max-width: 480px) {
-  .header-article {
+  header.header-article {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-evenly;
     margin-bottom: 0px;
   }
 
   .header-article .logo-header {
     align-items: center;
 
-    margin: 10px 100px 10px 10px;
+    margin: 0px 0px 3px 0px;
     padding: 0px;
   }
 
   .logo-header img {
-    margin: 5px 0px 5px 0px;
+    width: 62px;
+    height: 60px;
+    padding: 0px;
+    
   }
+  .logo-header p{
+    font-size: 60px;
+  }
+
 
   #menu {
     display: block;
@@ -190,7 +198,8 @@ nav a {
   }
 
 
-  /* #menu a {
+/* 
+  #menu a {
     font-weight: 500;
     font-size: 26px;
     padding: 1em 0;
@@ -198,14 +207,14 @@ nav a {
     line-height: 2.5rem;
   } */
 
+
   .header-article #btn-mobile {
     display: flex;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
+    padding: 0px;
     border: none;
     background: none;
     cursor: pointer;
-    margin-left: 5px;
+    margin-left: 0px;
     color: #ffffff;
   }
 
@@ -213,15 +222,15 @@ nav a {
     display: block;
     border-top: 3px solid;
     border-radius: 4px;
-    width: 24px;
+    width: 30px;
   }
 
   #hamburger::after,
   #hamburger::before {
     content: "";
     display: block;
-    width: 24px;
-    height: 4px;
+    width: 30px;
+    height: 6px;
     border-radius: 3px;
     background-color: currentColor;
     margin-top: 5px;
@@ -243,7 +252,7 @@ nav a {
   }
 
   #nav.active #menu {
-    height: 26vh;
+    height: 40vh;
     visibility: visible;
   }
 }
