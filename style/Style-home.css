@@ -196,6 +196,7 @@ h4 {
     font-size: 26px;
     font-weight: 700;
     margin: 0 auto;
+    
 }
 
 .conteudo-extra .prev {
@@ -206,6 +207,10 @@ h4 {
 }
 
 .conteudo-extra img {
+    margin: 0 auto;
+}
+
+.mais div{
     margin: 0 auto;
 }
 
@@ -327,6 +332,15 @@ h4 {
 
     .conteudo-extra .mais {
         margin-bottom: 50px;
+        margin: 0 auto;
+    }
+
+    .mais div{
+        margin: 0 auto;
+    }
+
+    .conteudo-extra a{
+        width: 250px;
     }
 
     .conteudo-extra .prev {
