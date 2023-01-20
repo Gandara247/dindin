@@ -70,6 +70,7 @@ h5 {
     position: relative;
     margin: 10rem 0rem 8rem 0rem;
     padding: 1rem;
+    background-color: #F6F6F6;
 
 }
 
@@ -176,6 +177,7 @@ h4 {
 
 .conteudo-extra {
     padding: 0rem 10rem 0rem 10rem;
+    background-color: #F6F6F6;
 }
 
 .conteudo-extra div {
