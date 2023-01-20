@@ -56,6 +56,7 @@ h5 {
     font-size: 24px;
     color: #FF4081;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .intro img {
@@ -218,6 +219,7 @@ h4 {
     font-size: 24px;
     color: #FF4081;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .conteudo-extra #button {
