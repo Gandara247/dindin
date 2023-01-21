@@ -51,6 +51,7 @@ body {
   max-width: 518px;
   padding: 50px 4.2vw;
   object-fit: cover;
+  height: 500px;
 }
 
 .artigospaginablog h5 {
@@ -137,9 +138,14 @@ body {
   }
 
   .artigospaginablog article {
-    padding: 30px 60px;
+    padding: 40px 60px;
+    height: fit-content;
   }
+
   .artigospaginablog h5 {
     padding: 12px 0;
+    font-size: 24px;
+    line-height: 28px;
   }
+
 }
