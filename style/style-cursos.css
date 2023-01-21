@@ -49,7 +49,8 @@ article h2 {
 article p {
   padding-left: 53px;
   padding-top: 37px;
-  width: 60rem;
+  width: 40rem;
+  text-align: justify;
 }
 article button {
   width: 233px;
