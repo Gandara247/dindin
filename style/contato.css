@@ -1,0 +1,127 @@
+body {
+  background-color: #fff;
+}
+
+.header-article {
+  margin-bottom: 0;
+}
+
+.contatocontainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 82px 0 99px 0;
+  padding: 0 7vw 0 6vw;
+}
+
+.contatocontainer img {
+  height: 444px;
+}
+
+.contatocontainer h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #ff4081;
+  margin-bottom: 44px;
+  margin-top: 20px;
+}
+
+.contatocontainer form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contatocontainer input {
+  color: #58555d;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  width: 34vw;
+  height: 32px;
+  padding-left: 1.5vw;
+}
+
+.contatocontainer textarea {
+  color: #58555d;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  border: 1px solid #686868;
+  border-radius: 7px;
+  width: 34vw;
+  height: 32px;
+  padding-left: 1.5vw;
+  padding-top: 1.5vw;
+  height: 193px;
+}
+
+#email {
+  margin: 15px 0 14px 0;
+}
+
+.contatocontainer button {
+  background: #ff4081;
+  border-radius: 50px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin-top: 15px;
+  height: 32px;
+  width: 22%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contatocontainer button {
+    width: 40%;
+  }
+
+  .contatocontainer img {
+    height: 350px;
+    width: 350px;
+  }
+  .contatocontainer textarea {
+    height: 13vw;
+  }
+  .contatocontainer h1 {
+    margin-bottom: 3vw;
+    margin-top: 1.4vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contatocontainer img {
+    margin-top: 30px;
+    height: 55vw;
+    width: 55vw;
+    align-self: center;
+  }
+  .contatocontainer button {
+    width: 50%;
+  }
+  .contatocontainer {
+    flex-direction: column;
+    align-items: center;
+    margin: 82px 0 30px 0;
+  }
+
+  .contatocontainer input {
+    width: 60vw;
+  }
+
+  .contatocontainer textarea {
+    width: 60vw;
+  }
+}

@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  font-size: 16px;
+  overflow-x: hidden;
+  font-family: "Ubuntu";
+}
+
+.header-article {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-weight: 500;
+  color: #ff4081;
+  margin: 0 auto;
+  line-height: 3.6rem;
+  font-size: 3.1rem;
+  text-align: center;
+}
+
+.tituloartigo {
+  margin-top: 7.5vw;
+}
+
+article p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.313rem;
+  margin: 0 auto;
+}
+
+article header {
+  display: flex;
+  flex-direction: column;
+}
+
+.flyer {
+  display: flex;
+  justify-content: center;
+  margin: 5.1vw 0 4.4vw 0;
+}
+
+.flyer-finance {
+  width: 71.7vw;
+  height: 32.3vw;
+  object-fit: cover;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 71.7vw;
+  text-align: justify;
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.3rem;
+  font-feature-settings: "kern" off;
+  margin-bottom: 15.4vw;
+}
+
+h5 {
+  color: #419488;
+  font-size: 1.6rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  padding: 5.5vw 0 2.1vw 0;
+}
+
+.conheça-nossos-cursos {
+  background-color: #f7f7f7;
+}
+
+.invite {
+  color: #ff4081;
+  font-size: 3.1rem;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  line-height: 3.6rem;
+  padding: 5.5vw 0 7vw 0;
+}
+
+.chamada-cursos {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+}
+
+.chamada-cursos div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24vw;
+  height: 561.3px;
+}
+
+h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #ff4081;
+  font-style: normal;
+  padding: 50px 0 28px 0;
+}
+
+.chamada-cursos p {
+  font-size: 1.063rem;
+  font-weight: 300;
+  width: 20.3vw;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.25rem;
+  font-style: normal;
+}
+
+.chamada-cursos a {
+  width: 75%;
+}
+
+.chamada-cursos button {
+  color: #fff;
+  background-color: #ff4081;
+  border: none;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 400;
+  width: 100%;
+  height: 63px;
+  border-radius: 62px;
+  margin: 0 auto;
+  margin-top: 42px;
+}
+.chamada-cursos hr {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  h5 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 14vw 0 5vw 0;
+  }
+
+  .flyer-finance {
+    width: 80vw;
+    height: 70vw;
+  }
+
+  .paragraphs {
+    max-width: 80vw;
+  }
+
+  .invite {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+    margin-bottom: -40px;
+  }
+
+  .invite p {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .chamada-cursos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chamada-cursos div {
+    width: 80%;
+    margin: 40px 0;
+  }
+
+  .chamada-cursos p {
+    width: 100%;
+  }
+
+  .chamada-cursos a {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .chamada-cursos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .chamada-cursos div {
+    width: 80vh;
+    margin: 50px 0;
+  }
+
+  .chamada-cursos p {
+    width: 50vh;
+  }
+
+  .chamada-cursos a {
+    width: 40%;
+  }
+}
