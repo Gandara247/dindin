@@ -5,7 +5,7 @@
 }
 
 .cabecalho h1 {
-  margin-top: 82px;
+  margin-top: 0px;
   margin-left: 81px;
   color: #ff4081;
 }
@@ -19,6 +19,10 @@
 }
 .barra-responsiva {
   display: none;
+}
+
+header.header-article{
+  margin-bottom: 5rem;
 }
 
 article {
@@ -52,16 +56,13 @@ article button {
 
   margin-top: 53px;
   margin-left: 53px;
-
   background: #419488;
   border-radius: 62px;
 
   font-weight: 400;
   font-size: 20px;
   color: #ffffff;
-
   border: none;
-
   cursor: pointer;
 }
 
