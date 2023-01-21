@@ -75,12 +75,18 @@ h5 {
   padding: 5.5vw 0 2.1vw 0;
 }
 
+.conheça-nossos-cursos {
+  background-color: #F7F7F7;
+}
+
 .invite {
   color: #ff4081;
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 3.1rem;
+  font-weight: 500;
+  font-style: normal;
   text-align: center;
-  margin-top: 10rem;
+  line-height: 3.6rem;
+  padding: 5.5vw 0 7vw 0;
 }
 
 .chamada-cursos {
