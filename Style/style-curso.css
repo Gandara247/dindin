@@ -4,19 +4,28 @@
   font-family: "Ubuntu";
 }
 
+.header-article {
+  margin-bottom: 0;
+}
+
 .cabecalho {
   display: flex;
   justify-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 80px 0; 
+}
+
+.cabecalho-texto {
+  width: 32vw;
+  padding-right: 3vw;
 }
 
 .cabecalho h1 {
   font-weight: 700;
   font-size: 55px;
   line-height: 63px;
-
   color: #ff4081;
+  font-style: normal;
+  padding-bottom: 22px;
 }
 
 .cabecalho p {
@@ -25,13 +34,14 @@
   line-height: 23px;
   display: flex;
   align-items: center;
+  font-style: normal;
   color: #000000;
-  width: 750px;
 }
 
 .cabecalho img {
-  width: 380px;
-  height: 380px;
+  width: 26.4vw;
+  height: 26.4vw;
+  padding-left: 3vw;
 }
 
 .corpo {
