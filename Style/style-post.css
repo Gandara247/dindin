@@ -76,7 +76,7 @@ h5 {
 }
 
 .conheça-nossos-cursos {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .invite {
@@ -92,36 +92,44 @@ h5 {
 .chamada-cursos {
   display: flex;
   justify-content: space-evenly;
-  position: relative;
-  margin: 5rem 0rem 8rem 0rem;
-  padding: 1rem;
+  padding-bottom: 100px;
 }
 
 .chamada-cursos div {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 24vw;
+  height: 561.3px;
 }
 
-.chamada-cursos img {
-  align-items: center;
-  width: 288;
+/* .chamada-cursos img {
+  width: 288px;
   height: 270px;
-}
+} */
 
 h4 {
-  font-size: 26px;
+  font-size: 1.6rem;
   font-weight: 700;
-  line-height: 5rem;
+  line-height: 1.8rem;
   text-align: center;
   color: #ff4081;
+  font-style: normal;
+  padding: 50px 0 28px 0;
 }
 
 .chamada-cursos p {
-  font-size: 18px;
+  font-size: 1.063rem;
   font-weight: 300;
-  width: 19rem;
+  width: 20.3vw;
   text-align: center;
   margin: 0 auto;
+  line-height: 1.25rem;
+  font-style: normal;
+}
+
+.chamada-cursos a {
+  width: 75%;
 }
 
 .chamada-cursos button {
@@ -129,11 +137,13 @@ h4 {
   background-color: #ff4081;
   border: none;
   font-size: 20px;
-  width: 233px;
-  height: 40px;
+  line-height: 23px;
+  font-weight: 400;
+  width: 100%;
+  height: 63px;
   border-radius: 62px;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 42px;
 }
 .chamada-cursos hr {
   display: none;
