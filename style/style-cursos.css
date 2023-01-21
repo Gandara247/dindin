@@ -4,19 +4,28 @@
   font-family: "Ubuntu";
 }
 
+.cabecalho {
+  margin: 0 auto;
+  width: 90%;
+  /* padding-bottom: 50px; */
+}
+
 .cabecalho h1 {
-  margin-top: 0px;
-  margin-left: 81px;
   color: #ff4081;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
 }
 
 .cabecalho h3 {
   font-weight: 400;
   font-size: 20px;
   line-height: 23px;
-
-  margin-left: 81px;
+  font-style: normal;
+  color: #555555;
 }
+
 .barra-responsiva {
   display: none;
 }
@@ -119,9 +128,6 @@ hr {
   }
   .cabecalho h3 {
     margin: 2%;
-  }
-  .barra-responsiva {
-    display: block;
   }
 
   hr {
