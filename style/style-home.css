@@ -12,46 +12,49 @@ body {
   font-family: "Ubuntu";
 }
 
+.header-article {
+  margin-bottom: 0;
+}
+
 .um {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   position: relative;
-  margin: 8rem 0rem 8rem 0rem;
-  padding: 1rem;
+  margin: 8rem 0 4rem 0;
 }
 
-.intro div div {
-  width: 500px;
-  height: 513px;
+.intro-texto {
+  width: 488px;
 }
 
-h1 {
+.intro-texto h1 {
+  width: 100%;
+  font-style: normal;
   font-weight: 700;
-  color: #ff4081;
   font-size: 60px;
-  position: absolute;
-  width: 24rem;
-  height: 14rem;
+  line-height: 69px;
+  color: #ff4081;
 }
 
-h5 {
+.intro-texto h5 {
+  width: 80%;
+  font-style: normal;
   font-weight: 400;
-  font-size: 26px;
-  position: absolute;
-  width: 20rem;
-  height: 4rem;
-  top: 16rem;
+  font-size: 27px;
+  line-height: 31px;
+  color: #555555;
+  padding: 40px 0;
 }
 
-.intro button {
-  position: absolute;
-  width: 268px;
+.intro-texto button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 31px;
+  width: 55%;
   height: 51px;
-  top: 22rem;
   border: 2px solid #ff4081;
   border-radius: 62px;
-  font-weight: 400;
-  font-size: 24px;
   color: #ff4081;
   cursor: pointer;
   background-color: #fff;
