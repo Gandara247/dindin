@@ -91,85 +91,58 @@ hr {
   border: 2px solid #c4c4c4;
 }
 
+@media only screen and (max-width: 1024px) {
+  .corpo article {
+    flex-direction: column;
+  }
+
+  article iframe {
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .aula {
+    max-width: 80%;
+    margin: 30px auto;
+  }
+}
+
 @media only screen and (max-width: 768px) {
-  /* .cabecalho {
-    margin: 5%;
-  } */
-  /* .cabecalho h1 {
-    font-size: 35px;
-  } */
+  .cabecalho {
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-  /* .cabecalho p {
-    font-size: 16px;
-  } */
-  /* .cabecalho img {
-    padding-top: 20px;
-    width: 50vw;
-    height: 25vh;
-  } */
-  /* .corpo {
-    background-color: #fff;
-  } */
+  .cabecalho img {
+    width: 40%;
+    height: 40%;
+    padding: 0;
+  }
 
-  /* article {
-    display: block;
-    padding: 7%;
-  } */
-  /* article h2 {
-    padding-top: 20px;
-    margin: 0;
-    font-size: 25px;
-  } */
+  .cabecalho-texto {
+    width: 80%;
+    align-items: center;
+    padding: 0;
+  }
 
-  /* article p {
-    margin: 0;
-    font-size: 16px;
-  } */
-
-  /* article video {
-    width: 90vw;
-    height: 35vh;
-  } */
+  .cabecalho h1 {
+    width: 100%;
+    font-size: 36px;
+    line-height: 40px;
+    padding: 20px 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-  /* .cabecalho {
-    display: block;
-    margin: 5%;
-  } */
-  /* .cabecalho h1 {
-    font-size: 35px;
-  } */
+  .cabecalho img {
+    width: 50%;
+    height: 50%;
+  }
 
-  /* .cabecalho p {
-    font-size: 16px;
-  } */
-  /* .cabecalho img {
-    padding-top: 20px;
-    width: 90vw;
-    height: 45vh;
-  } */
-  /* .corpo {
-    background-color: #fff;
-  } */
-
-  /* article {
-    display: block;
-    padding: 7%;
-  } */
-  /* article h2 {
-    padding-top: 20px;
-    margin: 0;
-    font-size: 25px;
-  } */
-
-  /* article p {
-    margin: 0;
-    font-size: 16px;
-  } */
-
-  /* article video {
-    width: 90vw;
-    height: 30vh;
-  } */
+  article iframe {
+    width: 80%;
+    height: 250px;
+  }
 }
