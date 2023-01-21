@@ -17,7 +17,6 @@ body {
 }
 
 h1 {
-  font-size: 50px;
   font-weight: 500;
   color: #ff4081;
   margin: 0 auto;
@@ -104,11 +103,6 @@ h5 {
   height: 561.3px;
 }
 
-/* .chamada-cursos img {
-  width: 288px;
-  height: 270px;
-} */
-
 h4 {
   font-size: 1.6rem;
   font-weight: 700;
@@ -151,76 +145,56 @@ h4 {
 }
 
 @media only screen and (max-width: 480px) {
-  /* article header {
-    text-align: center;
-  } */
-  /* h1 {
-    font-size: 25px;
-  } */
-  /* .flyer-finance {
-    width: 90vh;
-    height: 264px;
-  } */
+  h5 {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    padding: 14vw 0 5vw 0;
+  }
 
-  /* .paragraphs {
-    text-align: justify;
-    font-size: 18px;
-    width: 100vw;
-    padding-left: 10px;
-    padding-right: 10px;
-  } */
-  /* .paragraphs p {
-    line-height: 120%;
-    text-align: left;
-  } */
-  /* h5 {
-    font-size: 25px;
+  .flyer-finance {
+    width: 80vw;
+    height: 70vw;
+  }
+
+  .paragraphs {
+    max-width: 80vw;
+  }
+
+  .invite {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+    margin-bottom: -40px;
+  }
+
+  .invite p {
     text-align: center;
-  } */
-  /* .invite {
-    font-size: 30px;
-  } */
-  /* .chamada-cursos {
-    display: block;
-    margin-top: 20px;
-  } */
-  /* .chamada-cursos img {
-    display: none;
-  } */
-  /* .chamada-cursos h4 {
-    margin-bottom: 5px;
-    font-size: 18px;
-    line-height: 100%;
-  } */
-  /* .chamada-cursos div {
-    margin-bottom: 30px;
-  } */
-  /* .chamada-cursos button {
-    margin-top: 10px;
-  } */
-  /* .chamada-cursos hr {
-    border: 2px solid #c4c4c4;
-    display: block;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10px;
-  } */
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
   .chamada-cursos {
     flex-direction: column;
     align-items: center;
   }
 
   .chamada-cursos div {
-    width: 80vh;
-    margin: 50px 0;
+    width: 80%;
+    margin: 40px 0;
   }
 
   .chamada-cursos p {
-    width: 40vh;
+    width: 100%;
   }
 
   .chamada-cursos a {
-    width: 40%;
+    width: 60%;
   }
 }
 
