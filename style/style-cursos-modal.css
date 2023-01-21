@@ -20,7 +20,8 @@
   background: none;
   font-size: 20px;
   border: 1px solid #000000;
-  color: #000000;
+  border-color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .fechar-modal:hover {
@@ -115,27 +116,51 @@
     width: 40%;
     height: 40%;
   }
+
+  .modal-texto h2 {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+  }
+
+  .modal-texto p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .modal-texto ol li {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .modal-img {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .modal-img img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 20px;
+  }
+
+  .modal-texto {
+    margin-left: 0;
+    width: 91%;
+  }
+
+  .fechar-modal {
+    top: 3.5%;
+    left: 88%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-  /* .modal {
-    width: 90vw;
-    height: 85vh;
-  } */
-  /* .modal-img img {
-    display: none;
-  } */
-  /* .modal-texto h2 {
-    font-size: 28px;
-    text-align: center;
-  } */
-  /* .modal-texto p {
-    font-size: 16px;
-  } */
-  /* .fechar-modal {
-    width: 18px;
-    height: 18px;
-    font-size: 10px;
-    top: 2%;
-  } */
+  .fechar-modal {
+    top: 3%;
+    left: 82%;
+  }
 }
