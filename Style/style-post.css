@@ -12,17 +12,27 @@ body {
   font-family: "Ubuntu";
 }
 
+.header-article {
+  margin-bottom: 0;
+}
+
 h1 {
   font-size: 50px;
   font-weight: 500;
   color: #ff4081;
   margin: 0 auto;
+  line-height: 3.6rem;
+  font-size: 3.1rem;
+}
+
+.tituloartigo {
+  margin-top: 7.5vw;
 }
 
 article p {
   font-size: 18px;
   font-weight: 300;
-  line-height: 3rem;
+  line-height: 1.313rem;
   margin: 0 auto;
 }
 
@@ -31,16 +41,15 @@ article header {
   flex-direction: column;
 }
 
-article .flyer {
+.flyer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin: 3rem 0rem 3rem 0rem;
+  justify-content: center;
+  margin: 5.1vw 0 4.4vw 0;
 }
 
 .flyer-finance {
-  width: 57vw;
-  height: 22vw;
+  width: 71.7vw;
+  height: 32.3vw;
   object-fit: cover;
 }
 
@@ -48,16 +57,22 @@ article .flyer {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  width: 80rem;
-  padding: 0rem 5rem 0rem 5rem;
+  max-width: 71.7vw;
   text-align: justify;
-  font-size: 22px;
+  font-size: 1.1rem;
   font-weight: 300;
+  font-style: normal;
+  line-height: 1.3rem;
+  font-feature-settings: "kern" off;
+  margin-bottom: 15.4vw;
 }
 
 h5 {
   color: #419488;
-  font-size: 26px;
+  font-size: 1.6rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  padding: 5.5vw 0 2.1vw 0;
 }
 
 .invite {
