@@ -266,250 +266,7 @@ body {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 480px) {
-  /* .um {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-    margin-bottom: 1rem;
-    width: 100vw;
-  } */
-
-  /* .intro div div {
-    width: 300px;
-    height: 390px;
-  } */
-
-  /* .mobile-remove {
-    display: none;
-  } */
-
-  /* .um h1 {
-    width: 270px;
-    font-size: 52px;
-  } */
-
-  /* .um h5 {
-    width: 294px;
-    font-size: 24px;
-  } */
-
-  /* .um img {
-    display: none;
-  } */
-
-  /* .chamada-cursos {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-    margin-bottom: 1rem;
-    width: 100vw;
-  } */
-
-  /* .chamada-cursos div {
-    margin-bottom: 20%;
-  } */
-
-  /* h4 {
-    font-size: 26px;
-    line-height: 2rem;
-  } */
-
-  /* .chamada-cursos p {
-    width: 288px;
-  } */
-
-  /* #falam {
-    width: 300px;
-    font-size: 37px;
-    font-weight: 700;
-    color: #009688;
-  } */
-
-  /* .depoimentos {
-    padding: 16px;
-  } */
-
-  /* .dep {
-    width: 300px;
-  } */
-
-  /* .dep .dep-ind {
-    width: 280px;
-  } */
-
-  /* .conteudo-extra {
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-  } */
-
-  /* .conteudo-extra div {
-    display: flex;
-    flex-direction: column;
-  } */
-
-  /* .conteudo-extra .mais {
-    margin-bottom: 50px;
-    margin: 0 auto;
-  } */
-
-  /* .mais div {
-    margin: 0 auto;
-  } */
-
-  /* .conteudo-extra a {
-    width: 250px;
-  } */
-
-  /* .conteudo-extra .prev {
-    width: 290px;
-    margin: 0 auto;
-  } */
-
-  /* .conteudo-extra button {
-    margin-top: 0rem;
-    width: 200px;
-    height: 40px;
-    font-size: 20px;
-    cursor: pointer;
-  } */
-
-  /* .conteudo-extra #button {
-    margin: 0 auto;
-    width: 200px;
-    justify-content: center;
-    margin-bottom: 0rem;
-    cursor: pointer;
-  } */
-}
-
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  /* .um {
-    display: flex;
-    margin-top: 0px;
-    margin-bottom: 1rem;
-    width: 100vw;
-  } */
-
-  /* .intro div div {
-    width: 300px;
-    height: 390px;
-  } */
-
-  /* .um h1 {
-    width: 270px;
-    font-size: 52px;
-  } */
-
-  /* .um h5 {
-    width: 294px;
-    font-size: 24px;
-  } */
-
-  /* .um img {
-    width: 350px;
-    margin-top: 26px;
-  } */
-
-  /* .chamada-cursos {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10vh;
-    margin-bottom: 1rem;
-    width: 100vw;
-  } */
-
-  /* .chamada-cursos div {
-    margin-bottom: 20%;
-  } */
-
-  /* .chamada-cursos img {
-    width: 460px;
-    height: 380px;
-    margin: 0 auto;
-  } */
-
-  /* h4 {
-    font-size: 32px;
-    line-height: 4rem;
-  } */
-
-  /* .chamada-cursos p {
-    width: 420px;
-    font-size: 24px;
-    font-weight: 400;
-  } */
-
-  /* #falam {
-    width: 480px;
-    font-size: 37px;
-    font-weight: 700;
-    color: #009688;
-  } */
-
-  /* .depoimentos {
-    padding: 20px;
-    font-weight: 400;
-  } */
-
-  /* .dep {
-    width: 300px;
-  } */
-
-  /* .dep .dep-ind {
-    width: 280px;
-  } */
-
-  /* .conteudo-extra {
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-  } */
-
-  /* .conteudo-extra div {
-    display: flex;
-    flex-direction: column;
-  } */
-
-  /* .conteudo-extra img {
-    width: 430px;
-  } */
-
-  /* .conteudo-extra .title-card {
-    font-size: 32px;
-    line-height: 4rem;
-  } */
-
-  /* .conteudo-extra .mais {
-    margin-bottom: 50px;
-  } */
-
-  /* .conteudo-extra .prev {
-    width: 420px;
-    font-size: 24px;
-    font-weight: 400;
-    margin: 0 auto;
-  } */
-
-  /* .conteudo-extra button {
-    margin-top: 0rem;
-    width: 200px;
-    height: 40px;
-    font-size: 20px;
-    cursor: pointer;
-  } */
-
-  /* .conteudo-extra #button {
-    margin: 0 auto;
-    width: 200px;
-    justify-content: center;
-    margin-bottom: 0rem;
-    cursor: pointer;
-  } */
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .um {
     width: 80%;
     margin: 3rem auto;
@@ -589,5 +346,83 @@ body {
   .conteudo-extra button {
     margin-top: 60px;
     width: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro-texto h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .intro-texto h5 {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 0;
+  }
+
+  .intro-texto button {
+    width: 90%;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .chamada-cursos {
+    padding: 0 0 60px 0;
+  }
+
+  #falam {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .depoimentos div {
+    justify-content: center;
+  }
+
+  .dep {
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+  }
+
+  .dep-img {
+    height: auto;
+  }
+
+  .dep-ind {
+    margin-left: 18px;
+    font-size: 16px;
+    line-height: 22px;
+    width: 70%;
+  }
+
+  #name {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .conteudo-extra {
+    padding: 40px 0;
+  }
+
+  #mais {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .conteudo-extra button {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mobile-remove {
+    display: none;
+  }
+
+  .conteudo-extra button {
+    width: 100%;
   }
 }
