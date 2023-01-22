@@ -150,40 +150,53 @@ body {
   margin: 45px 48px;
 }
 
-.depoimentos .dep-ind {
-  font-size: 18px;
+.dep-img {
+  position: relative;
+  padding: 9px;
+  border: 3px solid #ff4081;
+  border-radius: 50px;
+}
+
+.dep-img img {
+  border-radius: 15.5px;
+}
+
+.dep-ind {
+  margin-left: 28px;
+  font-family: "Nunito";
+  font-style: normal;
   font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
   display: flex;
   justify-content: flex-start;
-  width: 340px;
-  height: 95px;
-  margin-left: 1rem;
+  width: 363px;
+  height: auto;
   text-align: left;
 }
 
-.depoimentos #name {
+#name {
   margin-top: 10px;
   font-weight: 400;
-}
-
-.depoimentos img {
-  padding: 5px;
-  margin: 5px;
-  border: solid #ff4081;
-  border-radius: 80px;
-}
-
-.conteudo-extra #mais {
-  margin: 5rem 0rem 3rem 0rem;
   font-family: "Nunito";
-  font-size: 37px;
-  font-weight: 700;
-  color: #009688;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .conteudo-extra {
-  padding: 0rem 10rem 0rem 10rem;
-  background-color: #f6f6f6;
+  padding: 91px 137px 53px 128px;
+  background-color: #f7f7f7;
+}
+
+#mais {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 43px;
+  color: #009688;
+  margin-bottom: 73px;
 }
 
 .conteudo-extra div {
@@ -191,49 +204,61 @@ body {
   justify-content: space-between;
 }
 
-.conteudo-extra .mais {
+.mais {
   display: flex;
   flex-direction: column;
-}
-
-.conteudo-extra .title-card {
-  color: #009688;
-  font-size: 26px;
-  font-weight: 700;
-  margin: 0 auto;
-}
-
-.conteudo-extra .prev {
-  width: 300px;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: justify;
+  width: 320px;
 }
 
 .conteudo-extra img {
   margin: 0 auto;
+  margin-bottom: 11px;
+}
+
+.title-card {
+  color: #009688;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 31px;
+  margin: 0 auto;
+}
+
+.prev {
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: justify;
 }
 
 .mais div {
   margin: 0 auto;
 }
 
+#button {
+  justify-content: center;
+  cursor: pointer;
+}
+
+#button a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .conteudo-extra button {
-  margin-top: 3rem;
-  width: 268px;
+  margin-top: 101px;
+  width: 24%;
   height: 51px;
   border: 2px solid #ff4081;
   border-radius: 62px;
+  font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 25px;
+  line-height: 29px;
+  background-color: #f7f7f7;
   color: #ff4081;
-  cursor: pointer;
-  background-color: #fff;
-}
-
-.conteudo-extra #button {
-  justify-content: center;
-  margin-bottom: 10rem;
   cursor: pointer;
 }
 
