@@ -61,35 +61,38 @@ body {
 }
 
 .intro img {
-  width: 503px;
+  width: 501px;
+  height: auto;
 }
 
 .chamada-cursos {
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  margin: 10rem 0rem 8rem 0rem;
-  padding: 1rem;
+  padding: 109px 0rem 119px 0rem;
   background-color: #f6f6f6;
 }
 
 .chamada-cursos div {
   display: flex;
   flex-direction: column;
+  width: 344px;
+  align-items: center;
 }
 
 .chamada-cursos img {
-  align-items: center;
-  width: 288;
-  height: 270px;
+  height: auto;
+  margin-bottom: 45px;
 }
 
-h4 {
-  font-size: 26px;
+.chamada-cursos h4 {
+  font-style: normal;
   font-weight: 700;
-  line-height: 5rem;
+  font-size: 24px;
+  line-height: 29px;
   text-align: center;
   color: #ff4081;
+  margin-bottom: 23px;
 }
 
 .chamada-cursos p {
@@ -98,30 +101,42 @@ h4 {
   width: 19rem;
   text-align: center;
   margin: 0 auto;
-}
-
-.chamada-cursos button {
-  color: #fff;
-  background-color: #ff4081;
-  border: none;
-  font-size: 20px;
-  width: 233px;
-  height: 40px;
-  border-radius: 62px;
-  margin: 0 auto;
-  margin-top: 2rem;
-  cursor: pointer;
+  margin-bottom: 26px;
 }
 
 .chamada-cursos a {
-  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.chamada-cursos button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+  background: #ff4081;
+  border-radius: 62px;
+  border: none;
+  width: 68%;
+  height: 51px;
+  cursor: pointer;
+}
+
+.depoimentos {
+  padding: 119px 177px 155px 77px;
 }
 
 #falam {
   font-family: "Nunito";
-  font-size: 37px;
+  font-style: normal;
   font-weight: 700;
+  font-size: 37px;
+  line-height: 50px;
   color: #009688;
+  padding-left: 48px;
 }
 
 .depoimentos div {
@@ -130,10 +145,9 @@ h4 {
   flex-wrap: wrap;
 }
 
-.depoimentos .dep {
+.dep {
   display: flex;
-  margin: 2rem 0rem 2rem 0rem;
-  /* width: 600px; */
+  margin: 45px 48px;
 }
 
 .depoimentos .dep-ind {
@@ -141,7 +155,6 @@ h4 {
   font-weight: 300;
   display: flex;
   justify-content: flex-start;
-  /* flex-direction: column; */
   width: 340px;
   height: 95px;
   margin-left: 1rem;
@@ -151,10 +164,6 @@ h4 {
 .depoimentos #name {
   margin-top: 10px;
   font-weight: 400;
-}
-
-.depoimentos {
-  padding: 0rem 10rem 0rem 10rem;
 }
 
 .depoimentos img {
@@ -229,12 +238,6 @@ h4 {
 }
 
 @media only screen and (max-width: 480px) {
-  /* .intro{
-        display: flex;
-        margin-left: 5.5vw;
-        align-content: center;
-        margin: 0 auto;
-    } */
   .um {
     display: flex;
     flex-direction: column;
