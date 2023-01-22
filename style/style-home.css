@@ -12,81 +12,89 @@ body {
   font-family: "Ubuntu";
 }
 
+.header-article {
+  margin-bottom: 0;
+}
+
 .um {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   position: relative;
-  margin: 8rem 0rem 8rem 0rem;
-  padding: 1rem;
+  margin: 8rem 14.3vw 4rem 14.3vw;
 }
 
-.intro div div {
-  width: 500px;
-  height: 513px;
+.intro-texto {
+  width: 34vw;
 }
 
-h1 {
+.intro-texto h1 {
+  width: 100%;
+  font-style: normal;
   font-weight: 700;
-  color: #ff4081;
   font-size: 60px;
-  position: absolute;
-  width: 24rem;
-  height: 14rem;
+  line-height: 69px;
+  color: #ff4081;
 }
 
-h5 {
+.intro-texto h5 {
+  width: 80%;
+  font-style: normal;
   font-weight: 400;
-  font-size: 26px;
-  position: absolute;
-  width: 20rem;
-  height: 4rem;
-  top: 16rem;
+  font-size: 27px;
+  line-height: 31px;
+  color: #555555;
+  padding: 40px 0;
 }
 
-.intro button {
-  position: absolute;
-  width: 268px;
+.intro-texto button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 31px;
+  width: 65%;
   height: 51px;
-  top: 22rem;
   border: 2px solid #ff4081;
   border-radius: 62px;
-  font-weight: 400;
-  font-size: 24px;
   color: #ff4081;
   cursor: pointer;
   background-color: #fff;
 }
 
 .intro img {
-  width: 503px;
+  width: 35vw;
+  height: auto;
 }
 
 .chamada-cursos {
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  margin: 10rem 0rem 8rem 0rem;
-  padding: 1rem;
+  padding: 49px 0rem 119px 0rem;
   background-color: #f6f6f6;
+  flex-wrap: wrap;
 }
 
 .chamada-cursos div {
   display: flex;
   flex-direction: column;
+  width: 344px;
+  align-items: center;
+  padding-top: 60px;
 }
 
 .chamada-cursos img {
-  align-items: center;
-  width: 288;
-  height: 270px;
+  height: auto;
+  margin-bottom: 45px;
 }
 
-h4 {
-  font-size: 26px;
+.chamada-cursos h4 {
+  font-style: normal;
   font-weight: 700;
-  line-height: 5rem;
+  font-size: 24px;
+  line-height: 29px;
   text-align: center;
   color: #ff4081;
+  margin-bottom: 23px;
 }
 
 .chamada-cursos p {
@@ -95,30 +103,42 @@ h4 {
   width: 19rem;
   text-align: center;
   margin: 0 auto;
-}
-
-.chamada-cursos button {
-  color: #fff;
-  background-color: #ff4081;
-  border: none;
-  font-size: 20px;
-  width: 233px;
-  height: 40px;
-  border-radius: 62px;
-  margin: 0 auto;
-  margin-top: 2rem;
-  cursor: pointer;
+  margin-bottom: 26px;
 }
 
 .chamada-cursos a {
-  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.chamada-cursos button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+  background: #ff4081;
+  border-radius: 62px;
+  border: none;
+  width: 68%;
+  height: 51px;
+  cursor: pointer;
+}
+
+.depoimentos {
+  padding: 119px 177px 155px 77px;
 }
 
 #falam {
   font-family: "Nunito";
-  font-size: 37px;
+  font-style: normal;
   font-weight: 700;
+  font-size: 37px;
+  line-height: 50px;
   color: #009688;
+  padding-left: 48px;
 }
 
 .depoimentos div {
@@ -127,348 +147,282 @@ h4 {
   flex-wrap: wrap;
 }
 
-.depoimentos .dep {
+.dep {
   display: flex;
-  margin: 2rem 0rem 2rem 0rem;
-  /* width: 600px; */
+  margin: 45px 48px;
 }
 
-.depoimentos .dep-ind {
-  font-size: 18px;
+.dep-img {
+  position: relative;
+  padding: 9px;
+  border: 3px solid #ff4081;
+  border-radius: 50px;
+}
+
+.dep-img img {
+  border-radius: 15.5px;
+}
+
+.dep-ind {
+  margin-left: 28px;
+  font-family: "Nunito";
+  font-style: normal;
   font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
   display: flex;
   justify-content: flex-start;
-  /* flex-direction: column; */
-  width: 340px;
-  height: 95px;
-  margin-left: 1rem;
+  width: 363px;
+  height: auto;
   text-align: left;
 }
 
-.depoimentos #name {
+#name {
   margin-top: 10px;
   font-weight: 400;
-}
-
-.depoimentos {
-  padding: 0rem 10rem 0rem 10rem;
-}
-
-.depoimentos img {
-  padding: 5px;
-  margin: 5px;
-  border: solid #ff4081;
-  border-radius: 80px;
-}
-
-.conteudo-extra #mais {
-  margin: 5rem 0rem 3rem 0rem;
   font-family: "Nunito";
-  font-size: 37px;
-  font-weight: 700;
-  color: #009688;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .conteudo-extra {
-  padding: 0rem 10rem 0rem 10rem;
-  background-color: #f6f6f6;
+  padding: 91px 137px 53px 128px;
+  background-color: #f7f7f7;
+}
+
+#mais {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 43px;
+  color: #009688;
+  margin-bottom: 33px;
 }
 
 .conteudo-extra div {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
-.conteudo-extra .mais {
+.mais {
   display: flex;
   flex-direction: column;
-}
-
-.conteudo-extra .title-card {
-  color: #009688;
-  font-size: 26px;
-  font-weight: 700;
-  margin: 0 auto;
-}
-
-.conteudo-extra .prev {
-  width: 300px;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: justify;
+  width: 320px;
 }
 
 .conteudo-extra img {
   margin: 0 auto;
+  margin-bottom: 11px;
+}
+
+.title-card {
+  color: #009688;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 31px;
+  margin: 0 auto;
+}
+
+.prev {
+  width: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: justify;
 }
 
 .mais div {
   margin: 0 auto;
 }
 
+#button {
+  justify-content: center;
+  cursor: pointer;
+}
+
+#button a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .conteudo-extra button {
-  margin-top: 3rem;
-  width: 268px;
+  margin-top: 101px;
+  width: 30%;
   height: 51px;
   border: 2px solid #ff4081;
   border-radius: 62px;
+  font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 25px;
+  line-height: 29px;
+  background-color: #f7f7f7;
   color: #ff4081;
   cursor: pointer;
-  background-color: #fff;
 }
 
-.conteudo-extra #button {
-  justify-content: center;
-  margin-bottom: 10rem;
-  cursor: pointer;
-}
-
-@media only screen and (max-width: 480px) {
-  /* .intro{
-        display: flex;
-        margin-left: 5.5vw;
-        align-content: center;
-        margin: 0 auto;
-    } */
+@media only screen and (max-width: 1024px) {
   .um {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-    margin-bottom: 1rem;
-    width: 100vw;
+    width: 80%;
+    margin: 3rem auto;
   }
 
-  .intro div div {
-    width: 300px;
-    height: 390px;
-  }
-  .mobile-remove {
-    display: none;
+  .intro-texto {
+    width: 100%;
   }
 
-  .um h1 {
-    width: 270px;
-    font-size: 52px;
+  .intro-texto h1 {
+    width: 90%;
+    font-size: 40px;
+    line-height: 48px;
   }
 
-  .um h5 {
-    width: 294px;
-    font-size: 24px;
+  .intro-texto h5 {
+    width: 80%;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 20px 0;
   }
 
-  .um img {
-    display: none;
-  }
-
-  .chamada-cursos {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
-    margin-bottom: 1rem;
-    width: 100vw;
-  }
-
-  .chamada-cursos div {
-    margin-bottom: 20%;
-  }
-
-  h4 {
-    font-size: 26px;
-    line-height: 2rem;
-  }
-
-  .chamada-cursos p {
-    width: 288px;
-  }
-
-  #falam {
-    width: 300px;
-    font-size: 37px;
-    font-weight: 700;
-    color: #009688;
+  .intro-texto button {
+    font-size: 22px;
+    line-height: 28px;
   }
 
   .depoimentos {
-    padding: 16px;
+    display: flex;
+    padding: 50px 0;
+    width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
   }
 
-  .dep {
-    width: 300px;
-  }
-
-  .dep .dep-ind {
-    width: 280px;
+  #falam {
+    font-size: 34px;
+    line-height: 40px;
   }
 
   .conteudo-extra {
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    background-color: #f7f7f7;
+  }
+
+  #mais {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
   }
 
   .conteudo-extra div {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .conteudo-extra .mais {
-    margin-bottom: 50px;
+    width: 80%;
+    margin-top: 20px;
     margin: 0 auto;
   }
 
   .mais div {
-    margin: 0 auto;
+    width: 100%;
   }
 
   .conteudo-extra a {
-    width: 250px;
-  }
-
-  .conteudo-extra .prev {
-    width: 290px;
     margin: 0 auto;
-  }
-
-  .conteudo-extra button {
-    margin-top: 0rem;
-    width: 200px;
-    height: 40px;
-    font-size: 20px;
-    cursor: pointer;
-  }
-
-  .conteudo-extra #button {
-    margin: 0 auto;
-    width: 200px;
-    justify-content: center;
-    margin-bottom: 0rem;
-    cursor: pointer;
-  }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 884px) {
-  .um {
-    display: flex;
-    margin-top: 0px;
-    margin-bottom: 1rem;
-    width: 100vw;
-  }
-
-  .intro div div {
-    width: 300px;
-    height: 390px;
-  }
-
-  .um h1 {
-    width: 270px;
-    font-size: 52px;
-  }
-
-  .um h5 {
-    width: 294px;
-    font-size: 24px;
-  }
-
-  .um img {
-    width: 350px;
-    margin-top: 26px;
-  }
-
-  .chamada-cursos {
-    display: flex;
-    flex-direction: column;
-    margin-top: 10vh;
-    margin-bottom: 1rem;
-    width: 100vw;
-  }
-
-  .chamada-cursos div {
-    margin-bottom: 20%;
-  }
-
-  .chamada-cursos img {
-    width: 460px;
-    height: 380px;
-    margin: 0 auto;
-  }
-
-  h4 {
-    font-size: 32px;
-    line-height: 4rem;
-  }
-
-  .chamada-cursos p {
-    width: 420px;
-    font-size: 24px;
-    font-weight: 400;
-  }
-
-  #falam {
-    width: 480px;
-    font-size: 37px;
-    font-weight: 700;
-    color: #009688;
-  }
-
-  .depoimentos {
-    padding: 20px;
-    font-weight: 400;
-  }
-
-  .dep {
-    width: 300px;
-  }
-
-  .dep .dep-ind {
-    width: 280px;
-  }
-
-  .conteudo-extra {
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-  }
-
-  .conteudo-extra div {
-    display: flex;
-    flex-direction: column;
   }
 
   .conteudo-extra img {
-    width: 430px;
+    width: 100%;
   }
 
-  .conteudo-extra .title-card {
-    font-size: 32px;
-    line-height: 4rem;
-  }
-
-  .conteudo-extra .mais {
-    margin-bottom: 50px;
-  }
-
-  .conteudo-extra .prev {
-    width: 420px;
-    font-size: 24px;
-    font-weight: 400;
-    margin: 0 auto;
+  .prev {
+    margin-bottom: 40px;
   }
 
   .conteudo-extra button {
-    margin-top: 0rem;
-    width: 200px;
-    height: 40px;
-    font-size: 20px;
-    cursor: pointer;
+    margin-top: 60px;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro-texto h1 {
+    font-size: 36px;
+    line-height: 40px;
   }
 
-  .conteudo-extra #button {
-    margin: 0 auto;
-    width: 200px;
+  .intro-texto h5 {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 0;
+  }
+
+  .intro-texto button {
+    width: 90%;
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .chamada-cursos {
+    padding: 0 0 60px 0;
+  }
+
+  #falam {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .depoimentos div {
     justify-content: center;
-    margin-bottom: 0rem;
-    cursor: pointer;
+  }
+
+  .dep {
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+  }
+
+  .dep-img {
+    height: auto;
+  }
+
+  .dep-ind {
+    margin-left: 18px;
+    font-size: 16px;
+    line-height: 22px;
+    width: 70%;
+  }
+
+  #name {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .conteudo-extra {
+    padding: 40px 0;
+  }
+
+  #mais {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .conteudo-extra button {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mobile-remove {
+    display: none;
+  }
+
+  .conteudo-extra button {
+    width: 100%;
   }
 }
