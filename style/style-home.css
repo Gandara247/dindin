@@ -229,6 +229,10 @@ body {
   margin: 0 auto;
 }
 
+.title-card a {
+  color: #009688
+}
+
 .prev {
   width: 100%;
   font-weight: 400;
@@ -395,7 +399,7 @@ body {
     margin-left: 18px;
     font-size: 16px;
     line-height: 22px;
-    width: 70%;
+    width: 90%;
   }
 
   #name {
