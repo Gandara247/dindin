@@ -64,7 +64,6 @@ a {
   padding-right: 9.51vw;
 }
 
-
 .links-trabalhe-conosco button {
   margin: 6.5px;
   padding: 14px 80px;
@@ -130,11 +129,11 @@ a {
 }
 
 @media only screen and (max-width: 480px) {
-    .texto-logo {
-        display: none;
-    }
+  .texto-logo {
+    display: none;
+  }
 
-    .slogan {
-        display: none;
-    }
+  .slogan {
+    display: none;
+  }
 }
