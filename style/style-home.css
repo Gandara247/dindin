@@ -63,6 +63,7 @@ body {
 .intro img {
   width: 35vw;
   height: auto;
+  max-width: 501px;
 }
 
 .chamada-cursos {
