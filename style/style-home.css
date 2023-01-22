@@ -18,13 +18,13 @@ body {
 
 .um {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   position: relative;
-  margin: 8rem 0 4rem 0;
+  margin: 8rem 14.3vw 4rem 14.3vw;
 }
 
 .intro-texto {
-  width: 488px;
+  width: 34vw;
 }
 
 .intro-texto h1 {
@@ -51,7 +51,7 @@ body {
   font-weight: 400;
   font-size: 27px;
   line-height: 31px;
-  width: 55%;
+  width: 65%;
   height: 51px;
   border: 2px solid #ff4081;
   border-radius: 62px;
@@ -61,7 +61,7 @@ body {
 }
 
 .intro img {
-  width: 501px;
+  width: 35vw;
   height: auto;
 }
 
@@ -69,8 +69,9 @@ body {
   display: flex;
   justify-content: space-evenly;
   position: relative;
-  padding: 109px 0rem 119px 0rem;
+  padding: 49px 0rem 119px 0rem;
   background-color: #f6f6f6;
+  flex-wrap: wrap;
 }
 
 .chamada-cursos div {
@@ -78,6 +79,7 @@ body {
   flex-direction: column;
   width: 344px;
   align-items: center;
+  padding-top: 60px;
 }
 
 .chamada-cursos img {
@@ -196,12 +198,14 @@ body {
   font-size: 37px;
   line-height: 43px;
   color: #009688;
-  margin-bottom: 73px;
+  margin-bottom: 33px;
 }
 
 .conteudo-extra div {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .mais {
@@ -249,7 +253,7 @@ body {
 
 .conteudo-extra button {
   margin-top: 101px;
-  width: 24%;
+  width: 30%;
   height: 51px;
   border: 2px solid #ff4081;
   border-radius: 62px;
@@ -263,243 +267,327 @@ body {
 }
 
 @media only screen and (max-width: 480px) {
-  .um {
+  /* .um {
     display: flex;
     flex-direction: column;
     margin-top: 0px;
     margin-bottom: 1rem;
     width: 100vw;
-  }
+  } */
 
-  .intro div div {
+  /* .intro div div {
     width: 300px;
     height: 390px;
-  }
-  .mobile-remove {
-    display: none;
-  }
+  } */
 
-  .um h1 {
+  /* .mobile-remove {
+    display: none;
+  } */
+
+  /* .um h1 {
     width: 270px;
     font-size: 52px;
-  }
+  } */
 
-  .um h5 {
+  /* .um h5 {
     width: 294px;
     font-size: 24px;
-  }
+  } */
 
-  .um img {
+  /* .um img {
     display: none;
-  }
+  } */
 
-  .chamada-cursos {
+  /* .chamada-cursos {
     display: flex;
     flex-direction: column;
     margin-top: 0px;
     margin-bottom: 1rem;
     width: 100vw;
-  }
+  } */
 
-  .chamada-cursos div {
+  /* .chamada-cursos div {
     margin-bottom: 20%;
-  }
+  } */
 
-  h4 {
+  /* h4 {
     font-size: 26px;
     line-height: 2rem;
-  }
+  } */
 
-  .chamada-cursos p {
+  /* .chamada-cursos p {
     width: 288px;
-  }
+  } */
 
-  #falam {
+  /* #falam {
     width: 300px;
     font-size: 37px;
     font-weight: 700;
     color: #009688;
-  }
+  } */
 
-  .depoimentos {
+  /* .depoimentos {
     padding: 16px;
-  }
+  } */
 
-  .dep {
+  /* .dep {
     width: 300px;
-  }
+  } */
 
-  .dep .dep-ind {
+  /* .dep .dep-ind {
     width: 280px;
-  }
+  } */
 
-  .conteudo-extra {
+  /* .conteudo-extra {
     display: flex;
     flex-direction: column;
     padding: 16px;
-  }
+  } */
 
-  .conteudo-extra div {
+  /* .conteudo-extra div {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
-  .conteudo-extra .mais {
+  /* .conteudo-extra .mais {
     margin-bottom: 50px;
     margin: 0 auto;
-  }
+  } */
 
-  .mais div {
+  /* .mais div {
     margin: 0 auto;
-  }
+  } */
 
-  .conteudo-extra a {
+  /* .conteudo-extra a {
     width: 250px;
-  }
+  } */
 
-  .conteudo-extra .prev {
+  /* .conteudo-extra .prev {
     width: 290px;
     margin: 0 auto;
-  }
+  } */
 
-  .conteudo-extra button {
+  /* .conteudo-extra button {
     margin-top: 0rem;
     width: 200px;
     height: 40px;
     font-size: 20px;
     cursor: pointer;
-  }
+  } */
 
-  .conteudo-extra #button {
+  /* .conteudo-extra #button {
     margin: 0 auto;
     width: 200px;
     justify-content: center;
     margin-bottom: 0rem;
     cursor: pointer;
-  }
+  } */
 }
 
-@media only screen and (min-width: 481px) and (max-width: 884px) {
-  .um {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* .um {
     display: flex;
     margin-top: 0px;
     margin-bottom: 1rem;
     width: 100vw;
-  }
+  } */
 
-  .intro div div {
+  /* .intro div div {
     width: 300px;
     height: 390px;
-  }
+  } */
 
-  .um h1 {
+  /* .um h1 {
     width: 270px;
     font-size: 52px;
-  }
+  } */
 
-  .um h5 {
+  /* .um h5 {
     width: 294px;
     font-size: 24px;
-  }
+  } */
 
-  .um img {
+  /* .um img {
     width: 350px;
     margin-top: 26px;
-  }
+  } */
 
-  .chamada-cursos {
+  /* .chamada-cursos {
     display: flex;
     flex-direction: column;
     margin-top: 10vh;
     margin-bottom: 1rem;
     width: 100vw;
-  }
+  } */
 
-  .chamada-cursos div {
+  /* .chamada-cursos div {
     margin-bottom: 20%;
-  }
+  } */
 
-  .chamada-cursos img {
+  /* .chamada-cursos img {
     width: 460px;
     height: 380px;
     margin: 0 auto;
-  }
+  } */
 
-  h4 {
+  /* h4 {
     font-size: 32px;
     line-height: 4rem;
-  }
+  } */
 
-  .chamada-cursos p {
+  /* .chamada-cursos p {
     width: 420px;
     font-size: 24px;
     font-weight: 400;
-  }
+  } */
 
-  #falam {
+  /* #falam {
     width: 480px;
     font-size: 37px;
     font-weight: 700;
     color: #009688;
-  }
+  } */
 
-  .depoimentos {
+  /* .depoimentos {
     padding: 20px;
     font-weight: 400;
-  }
+  } */
 
-  .dep {
+  /* .dep {
     width: 300px;
-  }
+  } */
 
-  .dep .dep-ind {
+  /* .dep .dep-ind {
     width: 280px;
-  }
+  } */
 
-  .conteudo-extra {
+  /* .conteudo-extra {
     display: flex;
     flex-direction: column;
     padding: 16px;
-  }
+  } */
 
-  .conteudo-extra div {
+  /* .conteudo-extra div {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
-  .conteudo-extra img {
+  /* .conteudo-extra img {
     width: 430px;
-  }
+  } */
 
-  .conteudo-extra .title-card {
+  /* .conteudo-extra .title-card {
     font-size: 32px;
     line-height: 4rem;
-  }
+  } */
 
-  .conteudo-extra .mais {
+  /* .conteudo-extra .mais {
     margin-bottom: 50px;
-  }
+  } */
 
-  .conteudo-extra .prev {
+  /* .conteudo-extra .prev {
     width: 420px;
     font-size: 24px;
     font-weight: 400;
     margin: 0 auto;
-  }
+  } */
 
-  .conteudo-extra button {
+  /* .conteudo-extra button {
     margin-top: 0rem;
     width: 200px;
     height: 40px;
     font-size: 20px;
     cursor: pointer;
-  }
+  } */
 
-  .conteudo-extra #button {
+  /* .conteudo-extra #button {
     margin: 0 auto;
     width: 200px;
     justify-content: center;
     margin-bottom: 0rem;
     cursor: pointer;
+  } */
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .um {
+    width: 80%;
+    margin: 3rem auto;
+  }
+
+  .intro-texto {
+    width: 100%;
+  }
+
+  .intro-texto h1 {
+    width: 90%;
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .intro-texto h5 {
+    width: 80%;
+    font-size: 22px;
+    line-height: 28px;
+    padding: 20px 0;
+  }
+
+  .intro-texto button {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .depoimentos {
+    display: flex;
+    padding: 50px 0;
+    width: 80%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  #falam {
+    font-size: 34px;
+    line-height: 40px;
+  }
+
+  .conteudo-extra {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+  }
+
+  #mais {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .conteudo-extra div {
+    width: 80%;
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+
+  .mais div {
+    width: 100%;
+  }
+
+  .conteudo-extra a {
+    margin: 0 auto;
+  }
+
+  .conteudo-extra img {
+    width: 100%;
+  }
+
+  .prev {
+    margin-bottom: 40px;
+  }
+
+  .conteudo-extra button {
+    margin-top: 60px;
+    width: 40%;
   }
 }
