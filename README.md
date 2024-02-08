@@ -1,6 +1,6 @@
 <h1 align="center"> Dindin - Educação Financeira </h1>
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 
 Primeiro desafio em equipe do Gama Academy, o site foi elaborado utilizando um Kanban Board, Git Flow e commits semânticos.
 
